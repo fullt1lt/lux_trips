@@ -454,5 +454,425 @@
                 }
             }
         }
+    },
+    {
+        "topClassName" : "Top_Rated_Gallery",
+        "dataTop" : "NothAmerica",
+        "child" : {
+            "0" : {
+                "pathImag" : "../../assets/images/Havana.jpg",
+                "alt" : "Havana",
+                "GalleryItemList" : {
+                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "CountryPlace" : "Cuba",
+                    "Place" : "Havana",
+                    "From" : "From",
+                    "Price" : "€ 3200",
+                    "Valuation" : "5.0",
+                    "ImagPathValuation1" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation2" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation3" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation4" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation5" : "./assets/icons/rating_full.svg",
+                    "AltImagValuation" : "rating_full"
+                }
+            },
+            "1" : {
+                "pathImag" : "../../assets/images/Panama.jpg",
+                "alt" : "Phuket",
+                "GalleryItemList" : {
+                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "CountryPlace" : "Panama",
+                    "Place" : "Panama City",
+                    "From" : "From",
+                    "Price" : "€ 2800",
+                    "Valuation" : "5.0",
+                    "ImagPathValuation1" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation2" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation3" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation4" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation5" : "./assets/icons/rating_full.svg",
+                    "AltImagValuation" : "rating_full"
+                }
+            },
+            "2" : {
+                "pathImag" : "../../assets/images/Cancun.jpg",
+                "alt" : "Cancun",
+                "GalleryItemList" : {
+                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "CountryPlace" : "Mexico",
+                    "Place" : "Cancun",
+                    "From" : "From",
+                    "Price" : "€ 2500",
+                    "Valuation" : "4.0",
+                    "ImagPathValuation1" : "./assets/icons/rating.svg",
+                    "ImagPathValuation2" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation3" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation4" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation5" : "./assets/icons/rating_full.svg",
+                    "AltImagValuation" : "rating_full"
+                }
+            },
+            "3" : {
+                "pathImag" : "../../assets/images/Whistler.jpg",
+                "alt" : "Whistler",
+                "GalleryItemList" : {
+                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "CountryPlace" : "Сanada",
+                    "Place" : "Whistler",
+                    "From" : "From",
+                    "Price" : "€ 2000",
+                    "Valuation" : "5.0",
+                    "ImagPathValuation1" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation2" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation3" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation4" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation5" : "./assets/icons/rating_full.svg",
+                    "AltImagValuation" : "rating_full"
+                }
+            },
+            "4" : {
+                "pathImag" : "../../assets/images/LosAngeles.jpg",
+                "alt" : "LosAngeles",
+                "GalleryItemList" : {
+                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "CountryPlace" : "USA",
+                    "Place" : "Los Angeles",
+                    "From" : "From",
+                    "Price" : "€ 3420",
+                    "Valuation" : "5.0",
+                    "ImagPathValuation1" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation2" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation3" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation4" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation5" : "./assets/icons/rating_full.svg",
+                    "AltImagValuation" : "rating_full"
+                }
+            },
+            "5" : {
+                "pathImag" : "../../assets/images/Negril.jpg",
+                "alt" : "Negril",
+                "GalleryItemList" : {
+                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "CountryPlace" : "Jamaica",
+                    "Place" : "Negril",
+                    "From" : "From",
+                    "Price" : "€ 4000",
+                    "Valuation" : "5.0",
+                    "ImagPathValuation1" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation2" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation3" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation4" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation5" : "./assets/icons/rating_full.svg",
+                    "AltImagValuation" : "rating_full"
+                }
+            }
+        }
+    },
+    {
+        "topClassName" : "Top_Rated_Gallery",
+        "dataTop" : "SothAmerica",
+        "child" : {
+            "0" : {
+                "pathImag" : "../../assets/images/RiodeJaneiro.jpg",
+                "alt" : "RiodeJaneiro",
+                "GalleryItemList" : {
+                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "CountryPlace" : "Rio de Janeiro",
+                    "Place" : "Rio de Janeiro",
+                    "From" : "From",
+                    "Price" : "€ 1400",
+                    "Valuation" : "5.0",
+                    "ImagPathValuation1" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation2" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation3" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation4" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation5" : "./assets/icons/rating_full.svg",
+                    "AltImagValuation" : "rating_full"
+                }
+            },
+            "1" : {
+                "pathImag" : "../../assets/images/Natal.jpg",
+                "alt" : "Natal",
+                "GalleryItemList" : {
+                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "CountryPlace" : "Rio Grande do Norte",
+                    "Place" : "Natal",
+                    "From" : "From",
+                    "Price" : "€ 1300",
+                    "Valuation" : "5.0",
+                    "ImagPathValuation1" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation2" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation3" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation4" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation5" : "./assets/icons/rating_full.svg",
+                    "AltImagValuation" : "rating_full"
+                }
+            },
+            "2" : {
+                "pathImag" : "../../assets/images/FozdoIguacu.jpg",
+                "alt" : "FozdoIguacu",
+                "GalleryItemList" : {
+                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "CountryPlace" : "Parana",
+                    "Place" : "Foz do Iguacu",
+                    "From" : "From",
+                    "Price" : "€ 2500",
+                    "Valuation" : "4.0",
+                    "ImagPathValuation1" : "./assets/icons/rating.svg",
+                    "ImagPathValuation2" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation3" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation4" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation5" : "./assets/icons/rating_full.svg",
+                    "AltImagValuation" : "rating_full"
+                }
+            },
+            "3" : {
+                "pathImag" : "../../assets/images/BuenosAires.jpg",
+                "alt" : "BuenosAires",
+                "GalleryItemList" : {
+                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "CountryPlace" : "Argentina",
+                    "Place" : "Buenos Aires",
+                    "From" : "From",
+                    "Price" : "€ 2000",
+                    "Valuation" : "5.0",
+                    "ImagPathValuation1" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation2" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation3" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation4" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation5" : "./assets/icons/rating_full.svg",
+                    "AltImagValuation" : "rating_full"
+                }
+            },
+            "4" : {
+                "pathImag" : "../../assets/images/LosAngeles.jpg",
+                "alt" : "LosAngeles",
+                "GalleryItemList" : {
+                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "CountryPlace" : "USA",
+                    "Place" : "Los Angeles",
+                    "From" : "From",
+                    "Price" : "€ 1880",
+                    "Valuation" : "5.0",
+                    "ImagPathValuation1" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation2" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation3" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation4" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation5" : "./assets/icons/rating_full.svg",
+                    "AltImagValuation" : "rating_full"
+                }
+            },
+            "5" : {
+                "pathImag" : "../../assets/images/Cartagena.jpg",
+                "alt" : "Cartagena",
+                "GalleryItemList" : {
+                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "CountryPlace" : "Colombia",
+                    "Place" : "Cartagena",
+                    "From" : "From",
+                    "Price" : "€ 2200",
+                    "Valuation" : "5.0",
+                    "ImagPathValuation1" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation2" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation3" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation4" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation5" : "./assets/icons/rating_full.svg",
+                    "AltImagValuation" : "rating_full"
+                }
+            }
+        }
+    },
+    {
+        "topClassName" : "Top_Rated_Gallery",
+        "dataTop" : "Antarctica",
+        "child" : {
+            "0" : {
+                "pathImag" : "../../assets/images/OceanAlbatrossesСruise.jpg",
+                "alt" : "OceanAlbatrossesСruise",
+                "GalleryItemList" : {
+                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "CountryPlace" : "Antarctica",
+                    "Place" : "Ocean Albatrosses Сruise",
+                    "From" : "From",
+                    "Price" : "€ 800",
+                    "Valuation" : "4.0",
+                    "ImagPathValuation1" : "./assets/icons/rating.svg",
+                    "ImagPathValuation2" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation3" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation4" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation5" : "./assets/icons/rating_full.svg",
+                    "AltImagValuation" : "rating_full"
+                }
+            },
+            "1" : {
+                "pathImag" : "../../assets/images/Hondius.jpg",
+                "alt" : "Hondius",
+                "GalleryItemList" : {
+                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "CountryPlace" : "Antarctica",
+                    "Place" : "Hondius",
+                    "From" : "From",
+                    "Price" : "€ 1000",
+                    "Valuation" : "5.0",
+                    "ImagPathValuation1" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation2" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation3" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation4" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation5" : "./assets/icons/rating_full.svg",
+                    "AltImagValuation" : "rating_full"
+                }
+            },
+            "2" : {
+                "pathImag" : "../../assets/images/Expedition.jpg",
+                "alt" : "Expedition",
+                "GalleryItemList" : {
+                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "CountryPlace" : "Antarctica",
+                    "Place" : "Expedition",
+                    "From" : "From",
+                    "Price" : "€ 2500",
+                    "Valuation" : "4.0",
+                    "ImagPathValuation1" : "./assets/icons/rating.svg",
+                    "ImagPathValuation2" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation3" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation4" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation5" : "./assets/icons/rating_full.svg",
+                    "AltImagValuation" : "rating_full"
+                }
+            },
+            "3" : {
+                "pathImag" : "../../assets/images/PolarPioneer.jpg",
+                "alt" : "PolarPioneer",
+                "GalleryItemList" : {
+                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "CountryPlace" : "Antarctica",
+                    "Place" : "Polar Pioneer",
+                    "From" : "From",
+                    "Price" : "€ 1200",
+                    "Valuation" : "5.0",
+                    "ImagPathValuation1" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation2" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation3" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation4" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation5" : "./assets/icons/rating_full.svg",
+                    "AltImagValuation" : "rating_full"
+                }
+            },
+            "4" : {
+                "pathImag" : "../../assets/images/Ortelius.jpg",
+                "alt" : "Ortelius",
+                "GalleryItemList" : {
+                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "CountryPlace" : "Antarctica",
+                    "Place" : "Ortelius",
+                    "From" : "From",
+                    "Price" : "€ 1100",
+                    "Valuation" : "5.0",
+                    "ImagPathValuation1" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation2" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation3" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation4" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation5" : "./assets/icons/rating_full.svg",
+                    "AltImagValuation" : "rating_full"
+                }
+            },
+            "5" : {
+                "pathImag" : "../../assets/images/Plancius.jpg",
+                "alt" : "Plancius",
+                "GalleryItemList" : {
+                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "CountryPlace" : "Antarctica",
+                    "Place" : "Plancius",
+                    "From" : "From",
+                    "Price" : "€ 1500",
+                    "Valuation" : "5.0",
+                    "ImagPathValuation1" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation2" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation3" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation4" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation5" : "./assets/icons/rating_full.svg",
+                    "AltImagValuation" : "rating_full"
+                }
+            }
+        }
+    },
+    {
+        "topClassName" : "Top_Rated_Gallery",
+        "dataTop" : "Australia",
+        "child" : {
+            "0" : {
+                "pathImag" : "../../assets/images/Sydney.jpg",
+                "alt" : "Sydney",
+                "GalleryItemList" : {
+                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "CountryPlace" : "Australia",
+                    "Place" : "Sydney",
+                    "From" : "From",
+                    "Price" : "€ 1500",
+                    "Valuation" : "5.0",
+                    "ImagPathValuation1" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation2" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation3" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation4" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation5" : "./assets/icons/rating_full.svg",
+                    "AltImagValuation" : "rating_full"
+                }
+            },
+            "1" : {
+                "pathImag" : "../../assets/images/GreatBarrierReef.jpg",
+                "alt" : "GreatBarrierReef",
+                "GalleryItemList" : {
+                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "CountryPlace" : "Australia",
+                    "Place" : "Great Barrier Reef",
+                    "From" : "From",
+                    "Price" : "€ 2000",
+                    "Valuation" : "5.0",
+                    "ImagPathValuation1" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation2" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation3" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation4" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation5" : "./assets/icons/rating_full.svg",
+                    "AltImagValuation" : "rating_full"
+                }
+            },
+            "2" : {
+                "pathImag" : "../../assets/images/RedHeartofAustralia.jpg",
+                "alt" : "RedHeartofAustralia",
+                "GalleryItemList" : {
+                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "CountryPlace" : "Australia",
+                    "Place" : "Red Heart of Australia",
+                    "From" : "From",
+                    "Price" : "€ 2500",
+                    "Valuation" : "4.0",
+                    "ImagPathValuation1" : "./assets/icons/rating.svg",
+                    "ImagPathValuation2" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation3" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation4" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation5" : "./assets/icons/rating_full.svg",
+                    "AltImagValuation" : "rating_full"
+                }
+            },
+            "3" : {
+                "pathImag" : "../../assets/images/Tasmaniaisland.jpg",
+                "alt" : "Tasmaniaisland",
+                "GalleryItemList" : {
+                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "CountryPlace" : "Australia",
+                    "Place" : "Tasmania island",
+                    "From" : "From",
+                    "Price" : "€ 2100",
+                    "Valuation" : "5.0",
+                    "ImagPathValuation1" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation2" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation3" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation4" : "./assets/icons/rating_full.svg",
+                    "ImagPathValuation5" : "./assets/icons/rating_full.svg",
+                    "AltImagValuation" : "rating_full"
+                }
+            }
+        }
     }
 ]

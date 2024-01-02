@@ -2,7 +2,7 @@
     {
         "Home" : {
             "en" : "Home",
-            "ru" : "Домой"
+            "ru" : "Главная"
         }
     },
     {
@@ -98,7 +98,7 @@
     {
         "Antarctica" : {
             "en" : "Antarctica",
-            "ru" : "Антарктида"
+            "ru" : "Антарктика"
         }
     },
     {
@@ -447,6 +447,192 @@
         "Vienna" : {
             "en" : "Vienna",
             "ru" : "Вена"
+        }
+    },
+    {
+        "Cuba" : {
+            "en" : "Cuba",
+            "ru" : "Куба"
+        }
+    },
+    {
+        "Havana" : {
+            "en" : "Havana",
+            "ru" : "Гавана"
+        }
+    },
+    {
+        "Panama" : {
+            "en" : "Panama",
+            "ru" : "Панама"
+        }
+    },
+    {
+        "PanamaCity" : {
+            "en" : "Panama City",
+            "ru" : "Панама Сити"
+        }
+    },
+    {
+        "Mexico" : {
+            "en" : "Mexico",
+            "ru" : "Мексика"
+        }
+    },
+    {
+        "Cancun" : {
+            "en" : "Cancun",
+            "ru" : "Канкун"
+        }
+    },
+    {
+        "Сanada" : {
+            "en" : "Сanada",
+            "ru" : "Канада"
+        }
+    },
+    {
+        "Whistler" : {
+            "en" : "Whistler",
+            "ru" : "Уистлер"
+        }
+    },
+    {
+        "USA" : {
+            "en" : "USA",
+            "ru" : "США"
+        }
+    },
+    {
+        "LosAngeles" : {
+            "en" : "Los Angeles",
+            "ru" : "Лос Анджелес"
+        }
+    },
+    {
+        "Jamaica" : {
+            "en" : "Jamaica",
+            "ru" : "Ямайка"
+        }
+    },
+    {
+        "Negril" : {
+            "en" : "Negril",
+            "ru" : "Негрил"
+        }
+    },
+    {
+        "RiodeJaneiro" : {
+            "en" : "RiodeJaneiro",
+            "ru" : "Рио-де-Жанейро"
+        }
+    },
+    {
+        "RioGrandedoNorte" : {
+            "en" : "Rio Grande do Norte",
+            "ru" : "Рио-Гранде-ду-Норте"
+        }
+    },
+    {
+        "Natal" : {
+            "en" : "Natal",
+            "ru" : "Наталь"
+        }
+    },
+    {
+        "Parana" : {
+            "en" : "Parana",
+            "ru" : "Парана"
+        }
+    },
+    {
+        "FozdoIguacu" : {
+            "en" : "Foz do Iguacu",
+            "ru" : "Фос-ду-Игуасу"
+        }
+    },
+    {
+        "Argentina" : {
+            "en" : "Argentina",
+            "ru" : "Аргентина"
+        }
+    },
+    {
+        "BuenosAires" : {
+            "en" : "Buenos Aires",
+            "ru" : "Буэнос-Айрес"
+        }
+    },
+    {
+        "Colombia" : {
+            "en" : "Colombia",
+            "ru" : "Колумбия"
+        }
+    },
+    {
+        "Cartagena" : {
+            "en" : "Cartagena",
+            "ru" : "Картахена"
+        }
+    },
+    {
+        "OceanAlbatrossesСruise" : {
+            "en" : "Ocean Albatrosses Сruise",
+            "ru" : "Круиз Океанские Альбатросы"
+        }
+    },
+    {
+        "Hondius" : {
+            "en" : "Hondius",
+            "ru" : "Круиз Хондиус"
+        }
+    },
+    {
+        "Expedition" : {
+            "en" : "Expedition",
+            "ru" : "Круиз Экспедиция"
+        }
+    },
+    {
+        "PolarPioneer" : {
+            "en" : "Polar Pioneer",
+            "ru" : "Круиз Полярный Пионер"
+        }
+    },
+        {
+        "Ortelius" : {
+            "en" : "Ortelius",
+            "ru" : "Круиз Ортелиус"
+        }
+    },
+    {
+        "Plancius" : {
+            "en" : "Plancius",
+            "ru" : "Планций Дайвинг-сафари"
+        }
+    },
+    {
+        "Sydney" : {
+            "en" : "Sydney",
+            "ru" : "Сидней"
+        }
+    },
+    {
+        "GreatBarrierReef" : {
+            "en" : "Great Barrier Reef",
+            "ru" : "Большой Барьерный Риф"
+        }
+    },
+    {
+        "RedHeartofAustralia" : {
+            "en" : "Red Heart of Australia",
+            "ru" : "Красное Сердце Австралии"
+        }
+    },
+    {
+        "Tasmaniaisland" : {
+            "en" : "Tasmania island",
+            "ru" : "Остров Тасмания"
         }
     }
 ]
