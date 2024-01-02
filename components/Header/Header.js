@@ -21,17 +21,6 @@ export const Header = ({ HeaderData }, { LocationHeaderItem }, lang) => {
   };
 
   const GetNavigationButton = () => {
-    // let bttnContent = "";
-    // switch (lang) {
-    //   case "en":
-    //     bttnContent = `<button><a href="#CallMe">Call Me <span>Back</span></a></button>`;
-    //     break;
-    //   case "ru":
-    //     bttnContent = `<button><a href="#CallMe">Перезвоните</a></button>`;
-    //     break;
-    //   default:
-    //     bttnContent = `<button><a href="#CallMe">Call Me <span>Back</span></a></button>`;
-    // }
     return `<button><a href="#CallMe" data-lang="CallMe">Call Me</a></button>`;
   };
   const GetСhoiceOfLocation = ({ LocationHeaderItem }) => {
