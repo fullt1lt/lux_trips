@@ -83,6 +83,7 @@ const Changelanguege = ({ HeaderLang }, lang) => {
   }
 };
 
+// function
 const GetTopRated = () => {
   const TopRated_buttons = document.querySelectorAll(".TopRatedButt");
   const block_buttons = document.querySelector(".Top_Rated");
