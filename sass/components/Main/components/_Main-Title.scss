@@ -1,0 +1,9 @@
+@import "./Main-Title/_Main-title1";
+@import "./Main-Title/_Top_Rated";
+@import "./Main-Title/_Top_Rated_Gallery";
+
+.Main-Title__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

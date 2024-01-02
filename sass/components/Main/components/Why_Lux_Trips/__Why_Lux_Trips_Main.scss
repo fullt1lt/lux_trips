@@ -1,0 +1,319 @@
+.Why_Lux_Trips_Title {
+    display: flex;
+    margin: 0 auto;
+    .Why_Lux_Trips_Title_List{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        padding-top: 115px;
+        justify-content: center;
+        li {
+            flex-direction: column;
+            max-width: 256px;
+            color: var(--black-color);
+            font-style: normal;
+            font-weight: var(--main-font-weight);
+        }
+        li:nth-child(1){
+            margin-right: 65px;
+            p {
+                font-family: var(--font-family-forum);
+                font-size: 3.75em;
+                line-height: 58px;
+                text-wrap: wrap;
+            }
+        }
+        li:nth-child(2){
+            p{
+                font-family: var(--font-family-Manrope);
+                font-size: 1em;
+                line-height: 179.8%;
+                text-wrap: wrap;
+            }
+        }
+    }
+}
+
+
+.Why_Lux_Trips_Images {
+    .Why_Lux_Trips_Images_list{
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        max-width: 1100px;
+        .Why_Lux_Trips_Images_Imag1 {
+            display: flex;
+            position: relative;
+            box-sizing: border-box;
+            transition: all 0.3s ease-in-out;
+            align-items: center;
+            justify-content: center;
+            top: -80px;
+            cursor: pointer;
+            &:hover {
+                transform: scale(1.05);
+            }
+            img{
+                border-radius: 12px;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                cursor: pointer;
+            }
+            ul {
+                display: flex;
+                position: absolute;
+                align-items: center;
+                justify-content: center;
+            }
+            .Images_Imag1_Vector_blur1 {
+                right: -16px;
+            }
+            .Images_Imag1_Vector_blur2 {
+                bottom: -48px;
+            }
+        }
+        .Why_Lux_Trips_Images_Imag2 {
+            display: flex;
+            position: relative;
+            box-sizing: border-box;
+            transition: all 0.3s ease-in-out;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            &:hover {
+                transform: scale(1.05);
+            }
+            img{
+                width: 100%;
+                height: 100%;
+                border-radius: 12px;
+                object-fit: cover;
+                cursor: pointer;
+            }
+            ul {
+                display: flex;
+                position: absolute;
+                align-items: center;
+                justify-content: center;
+            }
+            .Images_Imag2_Vector_blur1 {
+                right: -16px;
+            }
+        }
+        .Why_Lux_Trips_Images_Imag3 {
+            display: flex;
+            position: relative;
+            box-sizing: border-box;
+            transition: all 0.3s ease-in-out;
+            align-items: center;
+            justify-content: center;
+            top: 250px;
+            cursor: pointer;
+            &:hover {
+                transform: scale(1.05);
+            }
+            img{
+                width: 100%;
+                height: 100%;
+                border-radius: 12px;
+                object-fit: cover;
+                cursor: pointer;
+            }
+            ul {
+                display: flex;
+                position: absolute;
+                align-items: center;
+                justify-content: center;
+            }
+            .Images_Imag3_Vector_blur1 {
+                bottom: -48px;
+            }
+        }
+    }
+}
+
+.Why_Lux_Trips_Main_Text {
+    display: flex;
+    width: 100%;
+    background-repeat : no-repeat;
+    background-size: cover; 
+    background-position: center center;
+    background-attachment: fixed;
+    .Why_Lux_Trips_Main_Text_List {
+        display: grid;
+        display: grid;
+        grid-template-columns: minmax(150px, 256px) minmax(150px, 355px);
+        grid-template-rows: repeat(3, auto);
+        grid-column-gap: 2em;
+        grid-row-gap: 2em;
+        width: 100%;
+        margin: 115px auto 0;
+        justify-content: center;
+        box-sizing: border-box;
+        li {
+            color: var(--black-color);
+            font-style: normal;
+            font-weight: var(--main-font-weight);
+            box-sizing: border-box;
+        }
+        .Why_Lux_Trips_Main_Footer_Text1{
+            grid-area: 1 / 1 / 2 / 2;
+            padding-left: 1.25em;
+            p {
+                display: flex;
+                font-family: var(--font-family-forum);
+                font-size: 2.5em;
+                line-height: 101.2%;
+                text-wrap: wrap;
+                -webkit-transition: all 0.5s ease;
+                transition: all 0.5s ease;
+            }
+        }
+        .Why_Lux_Trips_Main_Footer_Text2{
+            grid-area: 1 / 2 / 2 / 3;
+            padding-right: 100px;
+            p{
+                font-family: var(--font-family-Manrope);
+                font-size: 1em;
+                line-height: 179.8%;
+                text-wrap: wrap;
+            }
+        }
+        .Why_Lux_Trips_Main_Footer_Imag {
+            display: flex;
+            grid-area: 2 / 1 / 4 / 2;
+            position: relative;
+            box-sizing: border-box;
+            transition: all 0.3s ease-in-out;
+            align-items: center;
+            justify-content: center;
+            left: -50px;
+            cursor: pointer;
+            &:hover {
+                transform: scale(1.05);
+            }
+            .Why_Lux_Trips_Imag {
+                width: 245px;
+                height: 545px;
+                border-radius: 12px;
+                object-fit: cover;
+            }
+            ul {
+                display: flex;
+                position: absolute;
+            }
+            .Main_Footer_Imag_Vector_1 {
+                right: -10px;
+            }
+            .Main_Footer_Imag_Vector_2 {
+                bottom: -48px;
+            }
+        }
+        .Why_Lux_Trips_Main_Footer_Text3{
+            grid-area: 2 / 2 / 3 / 3;
+            padding-top: 120px;
+            p {
+                display: flex;
+                font-family: var(--font-family-forum);
+                font-size: 2.5em;
+                line-height: 101.2%;
+                text-wrap: wrap;
+            }
+        }
+        .Why_Lux_Trips_Main_Footer_Button {
+            button {
+                font-weight: var(--main-font-weight);
+                text-transform: var(--main-text-transform);
+                letter-spacing: 0.64px;
+                padding: 10px 30px;
+                border: none; 
+                outline: none;
+                background-color: transparent;
+                border-radius: 61.317px;
+                border: 0.624px solid var(--bg-color);
+                transition: all 0.3s ease-in-out;
+                cursor: pointer;
+                &:hover {
+                    transform: scale(1.05);
+                }
+                a{
+                    text-decoration: none;
+                    color: var(--bg-color);
+                    margin: 10px 30px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1085px) {
+    .Why_Lux_Trips_Title_List {
+        flex-direction: column !important;
+        align-items: center;
+         li:nth-child(1){
+            margin-right: 0 !important;
+            p {
+                text-align: center;
+            }
+         }
+         li:nth-child(2) {
+            max-width: 100%;
+            p {
+                padding: 10px;
+            }
+         }
+    }
+
+
+    .Why_Lux_Trips_Images_list {
+        .Why_Lux_Trips_Images_Imag1 {
+            top: 0 !important;
+        }
+        .Why_Lux_Trips_Images_Imag3 {
+            top: 0 !important;
+        }
+        .Why_Lux_Trips_Images_Imag4 {
+            display: none;
+        }
+
+    }
+
+    .Why_Lux_Trips_Main_Text_List {
+        grid-template-columns: minmax(150px, 256px) minmax(150px, 355px) !important;
+        // grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, auto) !important;
+        .Why_Lux_Trips_Main_Footer_Text1 {
+            grid-area: 1 / 1 / 2 / 3 !important;
+        }
+        .Why_Lux_Trips_Main_Footer_Imag {
+            grid-area: 2 / 1 / 4 / 2 !important;
+            align-items: flex-start;
+            .Main_Footer_Imag_Vector_1 {
+                img {
+                    display: none;
+                }
+            }
+            .Main_Footer_Imag_Vector_2 {
+                img {
+                    display: none;
+                }
+            }
+        }
+        .Why_Lux_Trips_Main_Footer_Text2 {
+            grid-area: 2 / 2 / 3 / 3 !important;
+            padding-right: 0px !important;
+        }
+        .Why_Lux_Trips_Main_Footer_Text3 {
+            grid-area: 3 / 2 / 4 / 3 !important;
+            padding-top: 0 !important;
+        }
+        .Why_Lux_Trips_Main_Footer_Button {
+            grid-area: 4 / 1 / 5 / 3 !important;
+            display: flex;
+            justify-content: center;
+        }
+    }
+}

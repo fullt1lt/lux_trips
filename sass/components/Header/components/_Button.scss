@@ -1,0 +1,33 @@
+.Navigation-button {
+    button {
+        font-weight: var(--header-font-weight);
+        text-transform: var(--header-text-transform);
+        border: none; 
+        outline: none;
+        background-color: transparent;
+        border-radius: 61px;
+        border: 1px solid #FFF;
+        padding: 10px 15px;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+        &:hover {
+            transform: scale(1.05);
+        }
+        a{
+            text-decoration: none;
+            color: var(--bg-color);
+            text-wrap: nowrap;
+            font-size: 14px;
+        }
+    }
+}
+
+@media screen and (max-width: 1085px) {
+    .Navigation-button {
+        a {
+            span {
+                display: none;
+            }
+        }
+    }
+}

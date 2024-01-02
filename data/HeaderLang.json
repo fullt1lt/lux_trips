@@ -1,0 +1,452 @@
+[
+    {
+        "Home" : {
+            "en" : "Home",
+            "ru" : "Домой"
+        }
+    },
+    {
+        "LuxuryPackages" : {
+            "en" : "Luxury Packages",
+            "ru" : "Роскошные туры"
+        }
+    },
+    {
+        "BookWithUs" : {
+            "en" : "Book With Us",
+            "ru" : "Бронируйте у нас"
+        }
+    },
+    {
+        "WhyLuxTrips" : {
+            "en" : "Why Lux Trips",
+            "ru" : "Почему Lux Trips"
+        }
+    },
+    {
+        "Contact" : {
+            "en" : "Contact",
+            "ru" : "Контакты"
+        }
+    },
+    {
+        "ClientArea" : {
+            "en" : "Client Area",
+            "ru" : "Клиентский кабинет"
+        }
+    },
+    {
+        "CallMe" : {
+            "en" : "Call Me",
+            "ru" : "Перезвоните"
+        }
+    },
+    {
+        "FindYourJourney" : {
+            "en" : "Find your journey",
+            "ru" : "Найдите свое путешествие"
+        }
+    },
+    {
+        "Find" : {
+            "en" : "Find",
+            "ru" : "Найти"
+        }
+    },
+    {
+        "Destination" : {
+            "en" : "Destination",
+            "ru" : "Куда"
+        }
+    },
+    {
+        "World" : {
+            "en" : "World",
+            "ru" : "Мир"
+        }
+    },
+    {
+        "Africa" : {
+            "en" : "Africa",
+            "ru" : "Африка"
+        }
+    },
+    {
+        "Asia" : {
+            "en" : "Asia",
+            "ru" : "Азия"
+        }
+    },
+    {
+        "Europe" : {
+            "en" : "Europe",
+            "ru" : "Европа"
+        }
+    },
+    {
+        "NothAmerica" : {
+            "en" : "Noth America",
+            "ru" : "Северная Америка"
+        }
+    },
+    {
+        "SothAmerica" : {
+            "en" : "Soth America",
+            "ru" : "Южная Америка"
+        }
+    },
+    {
+        "Antarctica" : {
+            "en" : "Antarctica",
+            "ru" : "Антарктида"
+        }
+    },
+    {
+        "Australia" : {
+            "en" : "Australia",
+            "ru" : "Австралия"
+        }
+    },
+    {
+        "Traveltype" : {
+            "en" : "Travel type",
+            "ru" : "Тип путешествия"
+        }
+    },
+    {
+        "Businesstravel" : {
+            "en" : "Business travel",
+            "ru" : "Деловая поездка"
+        }
+    },
+    {
+        "RelaxationTravel" : {
+            "en" : "Relaxation Travel",
+            "ru" : "Отдых"
+        }
+    },
+    {
+        "Familytravel" : {
+            "en" : "Familytravel",
+            "ru" : "Семейное путешествие"
+        }
+    },
+    {
+        "Adventuretravel" : {
+            "en" : "Adventure travel",
+            "ru" : "Приключенческое путешествие"
+        }
+    },
+    {
+        "When" : {
+            "en" : "When",
+            "ru" : "Когда"
+        }
+    },
+    {
+        "Travellers" : {
+            "en" : "Travellers",
+            "ru" : "Люди"
+        }
+    },
+    {
+        "Person2" : {
+            "en" : "2 Persons",
+            "ru" : "Вдвоем"
+        }
+    },
+    {
+        "Person3" : {
+            "en" : "3 Persons",
+            "ru" : "Втроем"
+        }
+    },
+    {
+        "Person4" : {
+            "en" : "4 Persons",
+            "ru" : "Вчетвером"
+        }
+    },
+    {
+        "Person5" : {
+            "en" : "5 Persons",
+            "ru" : "Впятером"
+        }
+    },
+    {
+        "TopRated" : {
+            "en" : "Top Rated",
+            "ru" : "Самые популярные"
+        }
+    },
+    {
+        "Experiences" : {
+            "en" : "Experiences",
+            "ru" : "Направления"
+        }
+    },
+    {
+        "From" : {
+            "en" : "From",
+            "ru" : "От"
+        }
+    },
+    {
+        "Austria" : {
+            "en" : "Austria",
+            "ru" : "Австрия"
+        }
+    },
+    {
+        "WinterParkSkiHoliday" : {
+            "en" : "Winter Park Ski Holiday",
+            "ru" : "Зимний парк для лыжного отдыха"
+        }
+    },
+    {
+        "Peru" : {
+            "en" : "Peru",
+            "ru" : "Перу"
+        }
+    },
+    {
+        "MachuPicchu" : {
+            "en" : "Machu Picchu",
+            "ru" : "Мачу-Пикчу"
+        }
+    },
+    {
+        "Croatia" : {
+            "en" : "Croatia",
+            "ru" : "Хорватия"
+        }
+    },
+    {
+        "Hvar" : {
+            "en" : "Hvar",
+            "ru" : "Хвар"
+        }
+    },
+    {
+        "Jordan" : {
+            "en" : "Jordan",
+            "ru" : "Иордания"
+        }
+    },
+    {
+        "WadiMusa" : {
+            "en" : "Wadi Musa",
+            "ru" : "Вади-Муса"
+        }
+    },
+    {
+        "Maldives" : {
+            "en" : "Maldives",
+            "ru" : "Мальдивы"
+        }
+    },
+    {
+        "Baros" : {
+            "en" : "Baros",
+            "ru" : "Барош"
+        }
+    },
+    {
+        "Spain" : {
+            "en" : "Spain",
+            "ru" : "Испания"
+        }
+    },
+    {
+        "Barcelona" : {
+            "en" : "Barcelona",
+            "ru" : "Барселона"
+        }
+    },
+    {
+        "Kenya" : {
+            "en" : "Kenya",
+            "ru" : "Кения"
+        }
+    },
+    {
+        "Nairobi" : {
+            "en" : "Nairobi",
+            "ru" : "Найроби"
+        }
+    },
+    {
+        "Zanzibar" : {
+            "en" : "Zanzibar",
+            "ru" : "Занзибар"
+        }
+    },
+    {
+        "Tanzania" : {
+            "en" : "Tanzania",
+            "ru" : "Танзания"
+        }
+    },
+    {
+        "Morocco" : {
+            "en" : "Morocco",
+            "ru" : "Марокко"
+        }
+    },
+    {
+        "Ouarzazate" : {
+            "en" : "Ouarzazate",
+            "ru" : "Уарзазат"
+        }
+    },
+    {
+        "Essaouira" : {
+            "en" : "Essaouira",
+            "ru" : "Эс-Сувейра"
+        }
+    },
+    {
+        "SouthAfrica" : {
+            "en" : "South Africa",
+            "ru" : "Южная Африка"
+        }
+    },
+    {
+        "CapeTown" : {
+            "en" : "Cape Town",
+            "ru" : "Кейптаун"
+        }
+    },
+    {
+        "Zimbabwe" : {
+            "en" : "Zimbabwe",
+            "ru" : "Зимбабве"
+        }
+    },
+    {
+        "VictoriaFalls" : {
+            "en" : "Victoria Falls",
+            "ru" : "Водопад Виктория"
+        }
+    },
+    {
+        "Indonesia" : {
+            "en" : "Indonesia",
+            "ru" : "Индонезия"
+        }
+    },
+    {
+        "Bali" : {
+            "en" : "Bali",
+            "ru" : "Бали"
+        }
+    },
+    {
+        "Thailand" : {
+            "en" : "Thailand",
+            "ru" : "Тайланд"
+        }
+    },
+    {
+        "Phuket" : {
+            "en" : "Phuket",
+            "ru" : "Пхукет"
+        }
+    },
+    {
+        "Bangkok" : {
+            "en" : "Bangkok",
+            "ru" : "Бангкок"
+        }
+    },
+    {
+        "India" : {
+            "en" : "India",
+            "ru" : "Индия"
+        }
+    },
+    {
+        "Jaipur" : {
+            "en" : "Jaipur",
+            "ru" : "Джайпур"
+        }
+    },
+    {
+        "Goa" : {
+            "en" : "Goa",
+            "ru" : "Гоа"
+        }
+    },
+    {
+        "Singapore" : {
+            "en" : "Singapore",
+            "ru" : "Сингапур"
+        }
+    },
+    {
+        "England" : {
+            "en" : "England",
+            "ru" : "Англия"
+        }
+    },
+    {
+        "London" : {
+            "en" : "London",
+            "ru" : "Лондон"
+        }
+    },
+    {
+        "Italy" : {
+            "en" : "Italy",
+            "ru" : "Италия"
+        }
+    },
+    {
+        "Rome" : {
+            "en" : "Rome",
+            "ru" : "Рим"
+        }
+    },
+    {
+        "France" : {
+            "en" : "France",
+            "ru" : "Франция"
+        }
+    },
+    {
+        "Paris" : {
+            "en" : "Paris",
+            "ru" : "Париж"
+        }
+    },
+    {
+        "Türkiye" : {
+            "en" : "Türkiye",
+            "ru" : "Турция"
+        }
+    },
+    {
+        "Istanbul" : {
+            "en" : "Istanbul",
+            "ru" : "Стамбул"
+        }
+    },
+    {
+        "Netherlands" : {
+            "en" : "Netherlands",
+            "ru" : "Нидерланды"
+        }
+    },
+    {
+        "Amsterdam" : {
+            "en" : "Amsterdam",
+            "ru" : "Амстердам"
+        }
+    },
+    {
+        "Vienna" : {
+            "en" : "Vienna",
+            "ru" : "Вена"
+        }
+    }
+]

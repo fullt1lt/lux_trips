@@ -1,0 +1,31 @@
+@import "./components/Navigation";
+@import "./components/Button";
+@import "./components/Header_information";
+
+
+.Header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(../../../assets/images/bg_top.png);
+    background-repeat : no-repeat;
+    background-size: cover; 
+    background-position: center center;
+    font-family: var(--font-family-forum);
+    overflow: hidden;
+}
+
+.Gradient {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    left: 0;
+    bottom: -50px;
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+

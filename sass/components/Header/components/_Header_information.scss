@@ -1,0 +1,192 @@
+.Header_information__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: var(--header-font-weight);
+    text-transform: var(--header-text-transform);
+    .Header_information_Title1{
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        span{
+            font-size: 2.6vw;
+            text-align: center;
+            color: var(--black-color);
+            line-height: 98.5%;
+            letter-spacing: 7.5px;
+            font-style: normal;
+        }
+    }
+    .Header_information_Title2 {
+        // margin-top: 100px;
+        margin: 100px 30px 0;
+        ul{
+            li{
+                display: flex;
+                flex-direction: column;
+                box-sizing: border-box;
+                span{
+                    font-size: 18vw;
+                    text-align: center;
+                    font-style: normal;
+                    color: var(--white-color);
+                    line-height: 64.94%;
+                    letter-spacing: 7.918px;
+                    &:last-child{
+                        line-height: 100%;
+                        letter-spacing: 5.665px;
+                    }
+                }
+            }
+        }
+    }
+    .Сhoice_Of_Location {
+        margin: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .Сhoice_Of_Location_title {
+            display: flex;
+            justify-content: center;
+            width: 30%;
+            height: 55px;
+            padding: 13px 46px;
+            border-radius: 67px;
+            font-family: Forum;
+            color: var(--brown-color);
+            font-weight: var(--header-font-weight);
+            text-transform: var(--header-text-transform);
+            align-items: center;
+            text-align: center;
+            font-size: 2.68vh;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: 1.03px;
+            background-color: white;
+            z-index: 2;
+        }
+        .Сhoice_Of_Location_Header {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin-top: -35px;
+            border-radius: 10px;
+            background: var(--white-color);
+            box-shadow: 0px 18px 38px 0px rgba(0, 0, 0, 0.11);
+            padding: 36px 40px 30px 40px;
+            align-items: center;
+            font-family: var(--font-family-Manrope);
+            li{
+                margin-right: 30px;
+                .Location_Header_Item {
+                    li{
+                        font-family: Forum;
+                        font-size: 1.8vh;
+                        font-style: normal;
+                        line-height: normal;
+                        &:first-child{
+                            font-weight: 300;
+                            color: var(--brown-color);
+                        }
+                        &:last-child{
+                            font-weight: 500;
+                            color: var(--black-color);
+                        }
+                    }
+                    .Destination {
+                        select{
+                            margin-left: 20px;
+                            border: none; 
+                            outline: none;
+                            background-color: transparent;
+                            cursor: pointer;
+                        &:hover {
+                            border-bottom: 2px solid var(--black-color);
+                        }
+                        }
+                    }                    
+                    .Travel {
+                        select{
+                            margin-left: 20px;
+                            border: none; 
+                            outline: none;
+                            background-color: transparent;
+                            cursor: pointer;
+                        &:hover {
+                            border-bottom: 2px solid var(--black-color);
+                        }
+                        }
+                    }
+                    .Сalendar {
+                        Input{
+                            margin-left: 20px;
+                            border: none; 
+                            outline: none;
+                            background-color: transparent;
+                            cursor: pointer;
+                        }
+                    }
+                    .Travellers {
+                        select{
+                            margin-left: 20px;
+                            border: none; 
+                            outline: none;
+                            background-color: transparent;
+                            cursor: pointer;
+                        &:hover {
+                            border-bottom: 2px solid var(--black-color);
+                        }
+                        }
+                    }
+                }
+            }
+            .Button_Find {
+                button{
+                    display: flex;
+                    justify-content: center;
+                    width: 126px;
+                    height: 70px;
+                    border-radius: 121px;
+                    background-color: var(--black-color);
+                    font-family: Forum;
+                    font-size: 1.8vh;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: 0.96px;
+                    font-weight: var(--header-font-weight);
+                    text-transform: var(--header-text-transform);
+                    color: var(--white-color);
+                    align-items: center;
+                    img {
+                        margin-right: 10px;
+                    }
+                }
+            }
+            
+        }
+
+    }
+}
+
+@media screen and (max-width: 1085px) {
+    .Сhoice_Of_Location_Header{
+        flex-direction: column !important;
+        align-items: start !important;
+        width: 90% !important;
+        li {
+            margin-top: 15px;
+            margin-right: 0px !important;
+        }
+        .Button_Find {
+            width: 100%;
+            button {
+                width: 100% !important;
+            }
+        }
+    }
+    .Сhoice_Of_Location_title {
+        padding: 0 !important;
+        width: 250px !important;
+        height: 60px !important;
+    }
+}

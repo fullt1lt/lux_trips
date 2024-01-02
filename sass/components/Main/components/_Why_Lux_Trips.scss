@@ -1,0 +1,11 @@
+@import "./Why_Lux_Trips/_Why_Lux_Trips_Main";
+
+.Why_Lux_Trips_Main {
+    display: flex;
+    flex-direction: column;
+    background: url(../assets/images/bg_mont.png);
+    background-repeat : no-repeat;
+    background-size: cover; 
+    background-position: center center;
+    background-attachment: local;
+}

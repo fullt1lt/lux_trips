@@ -1,0 +1,13 @@
+.Main-title1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 109px;
+    span{
+        text-align: center;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: var(--main-font-weight);
+        line-height: 58px; 
+    }
+}

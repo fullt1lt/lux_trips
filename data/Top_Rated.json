@@ -1,0 +1,42 @@
+[
+    {
+        "pathImag" : "../../assets/icons/icon.svg",
+        "alt" : "icon",
+        "content" : "World"
+    },
+    {
+        "pathImag" : "../../assets/icons/icon.svg",
+        "alt" : "icon",
+        "content" : "Africa"
+    },
+    {
+        "pathImag" : "../../assets/icons/icon.svg",
+        "alt" : "icon",
+        "content" : "Asia"
+    },
+    {
+        "pathImag" : "../../assets/icons/icon.svg",
+        "alt" : "icon",
+        "content" : "Europe"
+    },
+    {
+        "pathImag" : "../../assets/icons/icon.svg",
+        "alt" : "icon",
+        "content" : "Noth America"
+    },
+    {
+        "pathImag" : "../../assets/icons/icon.svg",
+        "alt" : "icon",
+        "content" : "Soth America"
+    },
+    {
+        "pathImag" : "../../assets/icons/icon.svg",
+        "alt" : "icon",
+        "content" : "Antarctica"
+    },
+    {
+        "pathImag" : "../../assets/icons/icon.svg",
+        "alt" : "icon",
+        "content" : "Australia"
+    }
+]
