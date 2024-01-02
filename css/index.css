@@ -206,7 +206,6 @@ body::-webkit-scrollbar-track {
   font-style: normal;
   font-weight: var(--header-font-weight);
   line-height: normal;
-  letter-spacing: 0.96px;
   text-transform: var(--header-text-transform);
 }
 .Navigation .dropdown .dropdown-content .dropdown-content_list a:hover {
@@ -1180,7 +1179,7 @@ body::-webkit-scrollbar-track {
   font-size: 21px;
 }
 
-@media screen and (max-width: 1085px) {
+@media screen and (max-width: 1215px) {
   .Main-Luxury_Packages__List {
     grid-template-columns: repeat(6, 350px);
     grid-template-rows: repeat(1, 570px);
