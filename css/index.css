@@ -703,7 +703,7 @@ body::-webkit-scrollbar-track {
   font-weight: bold;
 }
 
-@media screen and (max-width: 965px) {
+@media screen and (max-width: 1215px) {
   .Top_Rated {
     overflow-x: scroll;
     -webkit-box-pack: start !important;
@@ -899,7 +899,7 @@ body::-webkit-scrollbar-track {
           transform: scale(1.35);
 }
 
-@media screen and (max-width: 1085px) {
+@media screen and (max-width: 1215px) {
   .Top_Rated_Gallery {
     grid-template-columns: repeat(6, 350px);
     grid-template-rows: repeat(1, 570px);
