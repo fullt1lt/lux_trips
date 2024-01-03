@@ -1,4 +1,6 @@
 export const Functions = ({ MainLang }) => {
+  let currentLang = localStorage.getItem("langaege") || "en";
+  let currentTopRated_buttons = localStorage.getItem("toprated") || "World";
   //кнопка открытия Меню при маленьком экране
   const button = document.querySelector(".dropbtn");
 
@@ -11,34 +13,6 @@ export const Functions = ({ MainLang }) => {
   buttonClose.onclick = () => {
     document.querySelector("#myDropdown").classList.remove("show");
   };
-
-  //Функция поиска кнопок EN и RU и присвоения им клика!!!
-  const Getlangbuttons = () => {
-    const lang_buttons = document.querySelectorAll(".button_lang");
-    const block_buttons = document.querySelector(
-      ".Navigation-Languages_buttons"
-    );
-    const blockButtonsDropbtn = document.querySelector(
-      ".Navigation-Languages_buttons_dropbtn"
-    );
-    lang_buttons.forEach(function (elem) {
-      elem.addEventListener("click", () => {
-        block_buttons.querySelector(".active").classList.remove("active");
-        blockButtonsDropbtn.querySelector(".active").classList.remove("active");
-        elem.classList.add("active");
-        for (let button = 0; button < lang_buttons.length; button++) {
-          if (lang_buttons[button].textContent === elem.textContent) {
-            lang_buttons[button].classList.add("active");
-          }
-        }
-        localStorage.setItem("languege", elem.textContent.toLowerCase());
-        ////Вызов функции перезаписи страницки с новым языком
-        Changelanguege({ MainLang }, elem.textContent.toLowerCase());
-      });
-    });
-  };
-
-  Getlangbuttons();
 
   //Функции перезаписи страницки с новым языком
   const Changelanguege = ({ MainLang }, lang) => {
@@ -65,6 +39,75 @@ export const Functions = ({ MainLang }) => {
     }
   };
 
+  //Функция смены активности языковой кнопки после перезагрузки
+  window.addEventListener("load", () => {
+    const lang_buttons = document.querySelectorAll(".button_lang");
+    const active_buttons = document.querySelectorAll(".active");
+    active_buttons.forEach(function (elem) {
+      elem.classList.remove("active");
+    });
+    lang_buttons.forEach(function (elem) {
+      if (elem.textContent === currentLang.toUpperCase()) {
+        elem.classList.add("active");
+      }
+    });
+  });
+
+  //Функция смены активности языковой кнопки после перезагрузки
+  window.addEventListener("load", () => {
+    const TopRated_buttons = document.querySelectorAll(".TopRatedButt");
+    const TopRated_active_buttons = document.querySelectorAll(
+      ".TopRatedButtActive"
+    );
+    const TopRated_list = document.querySelectorAll(".Top_Rated_Gallery");
+    const TopRated_active_list = document.querySelectorAll(".ActiveRated");
+    TopRated_active_buttons.forEach(function (elem) {
+      elem.classList.remove("TopRatedButtActive");
+    });
+    TopRated_buttons.forEach(function (elem) {
+      if (elem.getAttribute("data-lang") === currentTopRated_buttons) {
+        elem.classList.add("TopRatedButtActive");
+      }
+    });
+    TopRated_active_list.forEach(function (elem) {
+      elem.classList.remove("ActiveRated");
+    });
+    TopRated_list.forEach(function (elem) {
+      if (elem.getAttribute("data-top") === currentTopRated_buttons) {
+        elem.classList.add("ActiveRated");
+      }
+    });
+  });
+
+  Changelanguege({ MainLang }, currentLang);
+  //Функция поиска кнопок EN и RU и присвоения им клика!!!
+  const Getlangbuttons = () => {
+    const lang_buttons = document.querySelectorAll(".button_lang");
+    const block_buttons = document.querySelector(
+      ".Navigation-Languages_buttons"
+    );
+    const blockButtonsDropbtn = document.querySelector(
+      ".Navigation-Languages_buttons_dropbtn"
+    );
+    lang_buttons.forEach(function (elem) {
+      elem.addEventListener("click", () => {
+        block_buttons.querySelector(".active").classList.remove("active");
+        blockButtonsDropbtn.querySelector(".active").classList.remove("active");
+        elem.classList.add("active");
+        for (let button = 0; button < lang_buttons.length; button++) {
+          if (lang_buttons[button].textContent === elem.textContent) {
+            lang_buttons[button].classList.add("active");
+          }
+        }
+        localStorage.setItem("langaege", elem.textContent.toLowerCase());
+        ////Вызов функции перезаписи страницки с новым языком
+        Changelanguege({ MainLang }, elem.textContent.toLowerCase());
+      });
+    });
+  };
+
+  Getlangbuttons();
+
   //Функция смены в Меню TopRated
   const GetTopRated = () => {
     const TopRated_buttons = document.querySelectorAll(".TopRatedButt");
@@ -82,6 +125,7 @@ export const Functions = ({ MainLang }) => {
         let elements = document.querySelector(
           `[data-top=${elem.getAttribute("data-lang")}]`
         );
+        localStorage.setItem("toprated", elem.getAttribute("data-lang"));
         elements.classList.add("ActiveRated");
       });
     });

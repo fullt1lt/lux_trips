@@ -14,7 +14,6 @@ const {
   LuxuryPackeges,
   Book_With_Us,
 } = WebSiteData;
-const lang = "ru";
 
 document.querySelector("#app").innerHTML = `
     ${Header({ HeaderData }, { LocationHeaderItem })}
