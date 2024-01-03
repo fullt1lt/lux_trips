@@ -447,7 +447,7 @@ body::-webkit-scrollbar-track {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  font-size: 2.68vh;
+  font-size: 2.48vh;
   font-style: normal;
   line-height: normal;
   letter-spacing: 1.03px;
@@ -556,7 +556,7 @@ body::-webkit-scrollbar-track {
   margin-right: 10px;
 }
 
-@media screen and (max-width: 1215px) {
+@media screen and (max-width: 1350px) {
   .Сhoice_Of_Location_Header {
     -webkit-box-orient: vertical !important;
     -webkit-box-direction: normal !important;
@@ -579,7 +579,7 @@ body::-webkit-scrollbar-track {
   }
   .Сhoice_Of_Location_title {
     padding: 0 !important;
-    width: 250px !important;
+    width: 300px !important;
     height: 80px !important;
   }
 }
@@ -709,8 +709,17 @@ body::-webkit-scrollbar-track {
         -ms-flex-pack: start !important;
             justify-content: flex-start !important;
   }
+  .Top_Rated::-webkit-scrollbar {
+    background-color: transparent;
+    height: 10px;
+  }
+  .Top_Rated::-webkit-scrollbar-thumb {
+    background-color: #346083;
+    border-radius: 5px;
+  }
   .Top_Rated_Gallery::-webkit-scrollbar {
     background-color: transparent;
+    height: 10px;
   }
   .Top_Rated_Gallery::-webkit-scrollbar-thumb {
     background-color: #346083;
@@ -1088,6 +1097,10 @@ body::-webkit-scrollbar-track {
 }
 .Main-Luxury_Packages__List .Main-Luxury_Packages_items ul .Luxury_Packages_Title span,
 .Main-Luxury_Packages__List .Main-Luxury_Packages_margin ul .Luxury_Packages_Title span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 70%;
   color: var(--white-color);
   white-space: pre-line;
   text-align: center;
@@ -1194,6 +1207,7 @@ body::-webkit-scrollbar-track {
   }
   .Main-Luxury_Packages__List::-webkit-scrollbar {
     background-color: transparent;
+    height: 10px;
   }
   .Main-Luxury_Packages__List::-webkit-scrollbar-thumb {
     background-color: #346083;
@@ -1443,6 +1457,7 @@ body::-webkit-scrollbar-track {
   font-weight: var(--main-font-weight);
   line-height: 98.5%;
   font-size: 44px;
+  text-align: center;
 }
 
 @keyframes shake {
@@ -1849,7 +1864,7 @@ body::-webkit-scrollbar-track {
     text-align: center;
   }
   .Why_Lux_Trips_Title_List li:nth-child(2) {
-    max-width: 100%;
+    max-width: 60%;
   }
   .Why_Lux_Trips_Title_List li:nth-child(2) p {
     padding: 10px;

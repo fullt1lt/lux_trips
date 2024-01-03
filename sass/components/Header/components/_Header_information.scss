@@ -58,7 +58,7 @@
             text-transform: var(--header-text-transform);
             align-items: center;
             text-align: center;
-            font-size: 2.68vh;
+            font-size: 2.48vh;
             font-style: normal;
             line-height: normal;
             letter-spacing: 1.03px;
@@ -168,7 +168,7 @@
     }
 }
 
-@media screen and (max-width: 1215px) {
+@media screen and (max-width: 1350px) {
     .Сhoice_Of_Location_Header{
         flex-direction: column !important;
         align-items: start !important;
@@ -186,7 +186,7 @@
     }
     .Сhoice_Of_Location_title {
         padding: 0 !important;
-        width: 250px !important;
+        width: 300px !important;
         height: 80px !important;
     }
 }

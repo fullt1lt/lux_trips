@@ -634,5 +634,197 @@
             "en" : "Tasmania island",
             "ru" : "Остров Тасмания"
         }
+    },
+    {
+        "VIEWALL" : {
+            "en" : "VIEW ALL",
+            "ru" : "Все туры"
+        }
+    },
+    {
+        "Places" : {
+            "en" : "Places",
+            "ru" : "Туры"
+        }
+    },
+    {
+        "BestWinterDestinations" : {
+            "en" : "Best Winter Destinations",
+            "ru" : "Лучшие зимние направления"
+        }
+    },
+    {
+        "Theworldsmostextraordinaryplaces" : {
+            "en" : "The worlds most extraordinary places",
+            "ru" : "Самые необычные места мира"
+        }
+    },
+    {
+        "Newdestinationsfor2023" : {
+            "en" : "New destinations for 2023",
+            "ru" : "Новые направления на 2023 год"
+        }
+    },
+    {
+        "Yourhealthismatter" : {
+            "en" : "Your health is matter",
+            "ru" : "Ваше здоровье на первом месте"
+        }
+    },
+    {
+        "ExperiencesAwayFromCrowd" : {
+            "en" : "Experiences Away From Crowd",
+            "ru" : "Отдых вдали от толпы"
+        }
+    },
+    {
+        "Supercars" : {
+            "en" : "Supercars",
+            "ru" : "Суперкары"
+        }
+    },
+    {
+        "Hotels" : {
+            "en" : "Hotels",
+            "ru" : "Отели"
+        }
+    },
+    {
+        "Villas" : {
+            "en" : "Villas",
+            "ru" : "Виллы"
+        }
+    },
+    {
+        "Yachts" : {
+            "en" : "Yachts",
+            "ru" : "Яхты"
+        }
+    },
+    {
+        "PrivateHelicopter" : {
+            "en" : "Private Helicopter",
+            "ru" : "Частный вертолет"
+        }
+    },
+    {
+        "PrivateJet" : {
+            "en" : "Private Jet",
+            "ru" : "Частный самолет"
+        }
+    },
+    {
+        "Why" : {
+            "en" : "Why",
+            "ru" : "Почему"
+        }
+    },
+    {
+        "AsTravelDesigner" : {
+            "en" : "As Travel Designer, we know the ins and outs of travel from who to work with, where to go, when to book, and which restaurant provides the most authentic cuisine.",
+            "ru" : "Как лучшая туристическая компания мы знаем и поможем вам со всеми тонкостями вашего путешествия, а именно с кем работать, куда пойти, в каком ресторане подают самую вкусную кухню."
+        }
+    },
+    {
+        "Exclusiveknowledge" : {
+            "en" : "Exclusive knowledge to provide the best of the best to clients",
+            "ru" : "Наши эксклюзивные знания дают возможность предложить вам лучшее из лучшего."
+        }
+    },
+    {
+        "Ourarea" : {
+            "en" : "Our area of expertise ranges from luxury resorts and villas/chalets holiday bookings, private yacht and jet charters, to exclusive tours and personalized journey planning.",
+            "ru" : "Наши предложения варьируются от бронирования роскошных курортов и вилл , частных яхт и чартерных самолетов до эксклюзивных туров и индивидуально спланированных путешествий."
+        }
+    },
+    {
+        "Wecraft" : {
+            "en" : "We craft and plan unique itineraries tailored to customers&rsquo; interests and with strong attention to detail.",
+            "ru" : "Мы разрабатываем и планируем уникальные маршруты учитывая интересы клиентов и уделяя особое внимание деталям."
+        }
+    },
+    {
+        "helpmeplanatrip" : {
+            "en" : "help me plan a trip",
+            "ru" : "Спланировать поездку"
+        }
+    },
+    {
+        "Customise" : {
+            "en" : "Customise",
+            "ru" : "Настроить ваше"
+        }
+    },
+    {
+        "yourtripwithus" : {
+            "en" : "your trip with us",
+            "ru" : "путешествие с нами"
+        }
+    },
+    {
+        "Describeyour" : {
+            "en" : "Describe your <br> dream trip",
+            "ru" : "Опишите путешествие своей мечты"
+        }
+    },
+    {
+        "Letusknow" : {
+            "en" : "Let us know what your perfect vacation is. Destinations, preferences, and personal interests.",
+            "ru" : "Расскажите нам, каким должен быть ваш идеальный отпуск. Направления, предпочтения и личные интересы."
+        }
+    },
+    {
+        "Getmatched" : {
+            "en" : "Get matched",
+            "ru" : "Получить план поездки"
+        }
+    },
+    {
+        "Ourteamwill" : {
+            "en" : "Our team will create perfect travel itinerary for you, based on your personalized needs and wishes.",
+            "ru" : "Наша команда создаст для вас идеальный маршрут путешествия, исходя из ваших индивидуальных потребностей и пожеланий."
+        }
+    },
+    {
+        "Bookyour" : {
+            "en" : "Book your vacation",
+            "ru" : "Забронируйте свой отпуск"
+        }
+    },
+    {
+        "Confirmyourtrip" : {
+            "en" : "Confirm your trip only when you are completely satisfied with the proposed travel plan.",
+            "ru" : "Подтверждайте поездку только тогда, когда вас полностью устроит предложенный план поездки."
+        }
+    },
+    {
+        "Startatriprequest" : {
+            "en" : "Start a trip request",
+            "ru" : "Отослать заявку"
+        }
+    },
+    {
+        "Free" : {
+            "en" : "It's Free! - no credit card required",
+            "ru" : "Это бесплатно! - кредитная карта не требуется"
+        }
+    },
+    {
+        "Getweekly" : {
+            "en" : "Get weekly inspiration and expert advice",
+            "ru" : "Получайте еженедельное вдохновение и советы экспертов"
+        }
+    },
+    {
+        "Signup" : {
+            "en" : "Sign up for our Weekly Newsletter",
+            "ru" : "Подпишитесь на нашу еженедельную новостную рассылку"
+        }
+    },
+    {
+        "Subscribe" : {
+            "en" : "Subscribe",
+            "ru" : "Подпиcаться"
+        }
     }
 ]

@@ -1,17 +1,23 @@
 import * as ComponentsMainTitle from "./componentsMainTitle";
+import * as CompoentsMainLuxuryPackeges from "./compoentsMainLuxuryPackeges";
+import * as componentsMainBookWithUs from "./componentsBookWithUs";
 
 const { MainTitle } = ComponentsMainTitle;
+const { MainLuxuryPackeges } = CompoentsMainLuxuryPackeges;
+const { MainBookWithUs } = componentsMainBookWithUs;
 
 export const Main = (
   { Main_Title_List },
   { Top_Rated },
-  { Top_Rated_Gallery }
+  { Top_Rated_Gallery },
+  { LuxuryPackeges },
+  { Book_With_Us }
 ) => {
   return `
     <main class='Main'>
         ${MainTitle({ Main_Title_List }, { Top_Rated }, { Top_Rated_Gallery })}
-        ${MainLuxuryPackeges()}
-        ${BookWithUs()}
+        ${MainLuxuryPackeges({ LuxuryPackeges })}
+        ${MainBookWithUs({ Book_With_Us })}
         ${WhyLuxTrips()}
         ${CustomiseYourTrip()}
         ${Subscribe()}
@@ -19,207 +25,18 @@ export const Main = (
     </main>`;
 };
 
-function MainLuxuryPackeges() {
-  return `
-        <section class="Main-Luxury_Packages">
-                <ul class="Main-Luxury_Packages__List">
-                    <li class="Main-Luxury_Packages_info">
-                        <span>Luxury Packages</span>
-                        <button><a href="#">VIEW ALL</a></button>
-                    </li>
-                    <li class="Main-Luxury_Packages_margin">
-                        <img src="./assets/images/Best_Winter_Destination.png" alt="Best_Winter_Destination" class="Luxury_Packages_img">
-                        <ul>
-                            <li class="Luxury_Packages_Title">
-                                <span>Best</span>
-                                <span>Winter</span>
-                                <span>Destinations</span>
-                            </li>
-                            <li class="Luxury_Packages_Places">
-                                <img src="./assets/icons/Vector_blur.png" alt="" class="rhombus">
-                                <ul>
-                                    <li>
-                                        <span>34</span>
-                                        <span>Places</span>
-                                        <img src="./assets/icons/arrow.png" alt="arrow">
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="Main-Luxury_Packages_items">
-                        <img src="./assets/images/The_worlds.png" alt="The_worlds" class="Luxury_Packages_img">
-                        <ul>
-                            <li class="Luxury_Packages_Title">
-                                <span>The world's most</span>
-                                <span>extraordinary</span>
-                                <span>places</span>
-                            </li>
-                            <li class="Luxury_Packages_Places">
-                                <img src="./assets/icons/Vector_blur.png" alt="" class="rhombus">
-                                <ul>
-                                    <li>
-                                        <span>29</span>
-                                        <span>Places</span>
-                                        <img src="./assets/icons/arrow.png" alt="arrow">
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="Main-Luxury_Packages_items">
-                        <img src="./assets/images/New_destinations.png" alt="New_destinations" class="Luxury_Packages_img">
-                        <ul>
-                            <li class="Luxury_Packages_Title">
-                                <span>New</span>
-                                <span>destinations</span>
-                                <span>for 2022</span>
-                            </li>
-                            <li class="Luxury_Packages_Places">
-                                <img src="./assets/icons/Vector_blur.png" alt="" class="rhombus">
-                                <ul>
-                                    <li>
-                                        <span>47</span>
-                                        <span>Places</span>
-                                        <img src="./assets/icons/arrow.png" alt="arrow">
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="Main-Luxury_Packages_margin">
-                        <img src="./assets/images/Your_Health.png" alt="Your_Health" class="Luxury_Packages_img">
-                        <ul>
-                            <li class="Luxury_Packages_Title">
-                                <span>Your health</span>
-                                <span>is matter</span>
-                            </li>
-                            <li class="Luxury_Packages_Places">
-                                <img src="./assets/icons/Vector_blur.png" alt="" class="rhombus">
-                                <ul>
-                                    <li>
-                                        <span>29</span>
-                                        <span>Places</span>
-                                        <img src="./assets/icons/arrow.png" alt="arrow">
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="Main-Luxury_Packages_items">
-                        <img src="./assets/images/Experiences.png" alt="Experiences" class="Luxury_Packages_img">
-                        <ul>
-                            <li class="Luxury_Packages_Title">
-                                <span>Experiences </span>
-                                <span>Away From</span>
-                                <span>Crowd</span>
-                            </li>
-                            <li class="Luxury_Packages_Places">
-                                <img src="./assets/icons/Vector_blur.png" alt="" class="rhombus">
-                                <ul>
-                                    <li>
-                                        <span>168</span>
-                                        <span>Places</span>
-                                        <img src="./assets/icons/arrow.png" alt="arrow">
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </section>
-    `;
-}
-
-function BookWithUs() {
-  return `
-        <section class="Book_With_Us">
-            <ul class="Book_With_Us__list">
-                <li class="Book_With_Us_Title">
-                    <ul class="Book_With_Us_Title_list">
-                        <li>
-                            <span>Book</span>
-                            <span>With Us</span>
-                        </li>
-                    </ul>
-                </li>
-                <li class="Book_With_Us_Galery">
-                    <ul class="Book_With_Us_Galery_list">
-                        <li class="Book_With_Us_Galery_items">
-                            <img src="./assets/images/Supercars.png" alt="Supercars" class="Book_With_Us_img">
-                            <ul>
-                                <img src="./assets/icons/Vector_blur.png" alt="Vector" class="Book_With_Us_rhombus">
-                                <li>
-                                    <span>Supercars</span>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="Book_With_Us_Galery_items">
-                            <img src="./assets/images/Hotels.png" alt="Hotels" class="Book_With_Us_img">
-                            <ul>
-                                <img src="./assets/icons/Vector_blur.png" alt="Vector" class="Book_With_Us_rhombus">
-                                <li>
-                                    <span>Hotels</span>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="Book_With_Us_Galery_items">
-                            <img src="./assets/images/Villas.png" alt="Villas" class="Book_With_Us_img">
-                            <ul>
-                                <img src="./assets/icons/Vector_blur.png" alt="Vector" class="Book_With_Us_rhombus">
-                                <li>
-                                    <span>Villas</span>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="Book_With_Us_Galery_items">
-                            <img src="./assets/images/Yachts.png" alt="Yachts" class="Book_With_Us_img">
-                            <ul>
-                                <img src="./assets/icons/Vector_blur.png" alt="Vector" class="Book_With_Us_rhombus">
-                                <li>
-                                    <span>Yachts</span>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="Book_With_Us_Galery_items">
-                            <img src="./assets/images/Private_Helicopter.png" alt="Private_Helicopter" class="Book_With_Us_img">
-                            <ul>
-                                <img src="./assets/icons/Vector_blur.png" alt="Vector" class="Book_With_Us_rhombus">
-                                <li>
-                                    <span>Private</span>
-                                    <span>Helicopter</span>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="Book_With_Us_Galery_items">
-                            <img src="./assets/images/Private_Jet.png" alt="Private_Jet" class="Book_With_Us_img">
-                            <ul>
-                                <img src="./assets/icons/Vector_blur.png" alt="Vector" class="Book_With_Us_rhombus">
-                                <li>
-                                    <span>Private</span>
-                                    <span>Jet</span>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-        </section>
-    `;
-}
-
 function WhyLuxTrips() {
   return `
-    <section class="Why_Lux_Trips">
+    <section id="WhyLuxTrips" class="Why_Lux_Trips">
         <ul class="Why_Lux_Trips_Main">
             <li class="Why_Lux_Trips_Title">
                 <ul class="Why_Lux_Trips_Title_List">
                     <li>
-                        <p>Why</p>
+                        <p data-lang="Why">Why</p>
                         <p>Lux Trips</p>
                     </li>
                     <li>
-                        <p>As Travel Designer, we know the ins and outs of travel from who to work with, where to go, when to book, and which restaurant provides the most authentic cuisine.</p>
+                        <p data-lang="AsTravelDesigner">As Travel Designer, we know the ins and outs of travel from who to work with, where to go, when to book, and which restaurant provides the most authentic cuisine.</p>
                     </li>
                 </ul>
             </li>
@@ -262,10 +79,10 @@ function WhyLuxTrips() {
             <li class="Why_Lux_Trips_Main_Text">
                 <ul class="Why_Lux_Trips_Main_Text_List">
                     <li class="Why_Lux_Trips_Main_Footer_Text1">
-                        <p>Exclusive knowledge to provide the best of the best to clients</p>
+                        <p data-lang="Exclusiveknowledge">Exclusive knowledge to provide the best of the best to clients</p>
                     </li>
                     <li class="Why_Lux_Trips_Main_Footer_Text2">
-                        <p>Our area of expertise ranges from luxury resorts and villas/chalets holiday bookings, private yacht and jet charters, to exclusive tours and personalized journey planning. </p>
+                        <p data-lang="Ourarea">Our area of expertise ranges from luxury resorts and villas/chalets holiday bookings, private yacht and jet charters, to exclusive tours and personalized journey planning. </p>
                     </li>
                     <li class="Why_Lux_Trips_Main_Footer_Imag">
                         <img src="./assets/images/Why_Lux_Trips_Imag_4.png" alt="Why_Lux_Trips_Imag_4" class="Why_Lux_Trips_Imag">
@@ -281,10 +98,10 @@ function WhyLuxTrips() {
                         </ul>
                     </li>
                     <li class="Why_Lux_Trips_Main_Footer_Text3">
-                        <p>We craft and plan unique itineraries tailored to customers&rsquo; interests and with strong attention to detail.</p>
+                        <p data-lang="Wecraft">We craft and plan unique itineraries tailored to customers&rsquo; interests and with strong attention to detail.</p>
                     </li>
                     <li class="Why_Lux_Trips_Main_Footer_Button">
-                        <button><a href="#">help me plan a trip</a></button>
+                        <button><a href="#" data-lang="helpmeplanatrip">help me plan a trip</a></button>
                     </li>
                 </ul>
             </li>
@@ -304,8 +121,8 @@ function CustomiseYourTrip() {
             </div>
             <ul class="Customise_Your_Trip_List">
                 <li class="Customise_Your_Trip_Title">
-                    <span>Customise</span>
-                    <span>your trip with us</span>
+                    <span data-lang="Customise">Customise</span>
+                    <span data-lang="yourtripwithus">your trip with us</span>
                 </li>
                 <li class="Customise_Your_Trip_Item">
                     <ul class="Customise_Your_Trip_Item_List">
@@ -320,8 +137,8 @@ function CustomiseYourTrip() {
                         <li class="Customise_Your_Trip_Item_Text">
                             <ul class="Item_Text_List">
                                 <li>
-                                    <span>Describe your <br> dream trip</span>
-                                    <p>Let us know what your perfect vacation is. Destinations, preferences, and personal interests.</p>
+                                    <span data-lang="Describeyour">Describe your <br> dream trip</span>
+                                    <p data-lang="Letusknow">Let us know what your perfect vacation is. Destinations, preferences, and personal interests.</p>
                                 </li>
                             </ul>
                         </li>
@@ -340,8 +157,8 @@ function CustomiseYourTrip() {
                         <li class="Customise_Your_Trip_Item_Text">
                             <ul class="Item_Text_List">
                                 <li>
-                                    <span>Get matched</span>
-                                    <p>Our team will create perfect travel itinerary for you, based on your personalized needs and wishes.</p>
+                                    <span data-lang="Getmatched">Get matched</span>
+                                    <p data-lang="Ourteamwill">Our team will create perfect travel itinerary for you, based on your personalized needs and wishes.</p>
                                 </li>
                             </ul>
                         </li>
@@ -360,8 +177,8 @@ function CustomiseYourTrip() {
                         <li class="Customise_Your_Trip_Item_Text">
                             <ul class="Item_Text_List">
                                 <li>
-                                    <span>Book your <br>vacation</span>
-                                    <p>Confirm your trip only when you are completely satisfied with the proposed travel plan.</p>
+                                    <span data-lang="Bookyour">Book your <br>vacation</span>
+                                    <p data-lang="Confirmyourtrip">Confirm your trip only when you are completely satisfied with the proposed travel plan.</p>
                                 </li>
                             </ul>
                         </li>
@@ -374,10 +191,10 @@ function CustomiseYourTrip() {
                             <img src="./assets/icons/Layer 4.png" alt="">
                         </li>
                         <li class="Button_Start">
-                            <button><a href="#">Start a trip request</a></button>
+                            <button><a href="#" data-lang="Startatriprequest">Start a trip request</a></button>
                         </li>
                         <li class="Button_Footer">
-                            <span>It&rsquo;s Free! - no credit card required</span>
+                            <span data-lang="Free">It's Free! - no credit card required</span>
                         </li>
                     </ul>
                 </li>
@@ -396,15 +213,15 @@ function Subscribe() {
         </ul>
         <ul class="Subscribe_List">
             <li class="Subscribe_List_Info">
-                <span>
+                <span data-lang="Getweekly">
                     Get weekly inspiration and expert advice
                 </span>
-                <p>Sign up for our Weekly Newsletter</p>
+                <p data-lang="Signup">Sign up for our Weekly Newsletter</p>
             </li>
             <li class="Subscribe_List_Button">
                 <input type="email" name="EmailAdress" placeholder="Email address" maxlength="50" required="">
                 <button>
-                    <a href="#">Subscribe</a>
+                    <a href="#" data-lang="Subscribe">Subscribe</a>
                 </button>
             </li>
         </ul>
@@ -418,7 +235,7 @@ function Subscribe() {
 
 function Contact() {
   return `
-    <section id="CallMe" class="Contact">
+    <section id="Contact" class="Contact">
         <ul class="Bg_Contact_List1">
             <li>
                 <img src="./assets/icons/Layer_5.png" alt="Layer_5">
@@ -426,7 +243,7 @@ function Contact() {
         </ul>
         <ul class="Main_Contact_List">
            <li class="Main_Contact_List_Title">
-                <span>Contact</span>
+                <span data-lang="Contact">Contact</span>
            </li>
            <li class="Main_Contact_List_Inut">
                 <input type="text" name="Name" placeholder="Name" maxlength="20" required="">
@@ -441,7 +258,7 @@ function Contact() {
                         <img src="./assets/icons/Layer 4.png" alt="">
                     </li>
                     <li class="Button_Call_me_back">
-                        <button><a href="#">Call me back</a></button>
+                        <button><a href="#" data-lang="CallMe">Call me back</a></button>
                     </li>
                 </ul>
            </li>

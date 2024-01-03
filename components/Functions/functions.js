@@ -1,4 +1,4 @@
-export const Functions = ({ HeaderLang }) => {
+export const Functions = ({ MainLang }) => {
   //кнопка открытия Меню при маленьком экране
   const button = document.querySelector(".dropbtn");
 
@@ -33,7 +33,7 @@ export const Functions = ({ HeaderLang }) => {
         }
         localStorage.setItem("languege", elem.textContent.toLowerCase());
         ////Вызов функции перезаписи страницки с новым языком
-        Changelanguege({ HeaderLang }, elem.textContent.toLowerCase());
+        Changelanguege({ MainLang }, elem.textContent.toLowerCase());
       });
     });
   };
@@ -41,19 +41,19 @@ export const Functions = ({ HeaderLang }) => {
   Getlangbuttons();
 
   //Функции перезаписи страницки с новым языком
-  const Changelanguege = ({ HeaderLang }, lang) => {
+  const Changelanguege = ({ MainLang }, lang) => {
     let text = "";
-    for (let key in HeaderLang) {
-      for (let obj in HeaderLang[key]) {
+    for (let key in MainLang) {
+      for (let obj in MainLang[key]) {
         switch (lang) {
           case "en":
-            text = HeaderLang[key][obj].en;
+            text = MainLang[key][obj].en;
             break;
           case "ru":
-            text = HeaderLang[key][obj].ru;
+            text = MainLang[key][obj].ru;
             break;
           default:
-            text = HeaderLang[key][obj].en;
+            text = MainLang[key][obj].en;
         }
         let elements = document.querySelectorAll(`[data-lang=${obj}]`);
         elements.forEach(function (elem) {

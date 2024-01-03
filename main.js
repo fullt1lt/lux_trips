@@ -7,18 +7,26 @@ const { Header, Main, Footer, Functions } = Components;
 const {
   HeaderData,
   LocationHeaderItem,
-  HeaderLang,
+  MainLang,
   Main_Title_List,
   Top_Rated,
   Top_Rated_Gallery,
+  LuxuryPackeges,
+  Book_With_Us,
 } = WebSiteData;
 const lang = "ru";
 
 document.querySelector("#app").innerHTML = `
     ${Header({ HeaderData }, { LocationHeaderItem })}
-    ${Main({ Main_Title_List }, { Top_Rated }, { Top_Rated_Gallery })}
+    ${Main(
+      { Main_Title_List },
+      { Top_Rated },
+      { Top_Rated_Gallery },
+      { LuxuryPackeges },
+      { Book_With_Us }
+    )}
     ${Footer()}
     `;
 
 // Вызов функции управление кнопки  меню в Header
-Functions({ HeaderLang });
+Functions({ MainLang });

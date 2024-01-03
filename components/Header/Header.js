@@ -8,13 +8,15 @@ export const Header = ({ HeaderData }, { LocationHeaderItem }, lang) => {
   const GetNavigationDataDropdown = ({ HeaderData }) => {
     return HeaderData.map(
       ({ value }) =>
-        `<a href="#" data-lang="${value.split(" ").join("")}">${value}</a>`
+        `<a href="#${value.split(" ").join("")}" data-lang="${value
+          .split(" ")
+          .join("")}">${value}</a>`
     ).join("");
   };
   const GetNavigationData = ({ HeaderData }) => {
     return HeaderData.map(
       ({ value }) =>
-        `<li><a href="#" data-lang="${value
+        `<li><a href="#${value.split(" ").join("")}" data-lang="${value
           .split(" ")
           .join("")}">${value}</a></li>`
     ).join("");

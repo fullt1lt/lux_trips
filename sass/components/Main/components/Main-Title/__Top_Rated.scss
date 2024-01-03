@@ -39,9 +39,6 @@
             img {
                 display: flex;
             }
-            // a {
-            //     color: var(--black-color);
-            // }
         }
         .TopRatedButtActive{
             font-size: 28px;
@@ -56,10 +53,21 @@
         overflow-x: scroll;
         justify-content: flex-start !important;
     }
-    .Top_Rated_Gallery::-webkit-scrollbar {
+    .Top_Rated::-webkit-scrollbar{
         background-color: transparent;
+        height: 10px;
     }
-    .Top_Rated_Gallery::-webkit-scrollbar-thumb {
+
+    .Top_Rated::-webkit-scrollbar-thumb {
+        background-color: #346083;
+        border-radius: 5px;
+    }
+
+    .Top_Rated_Gallery::-webkit-scrollbar{
+        background-color: transparent;
+        height: 10px;
+    }
+    .Top_Rated_Gallery::-webkit-scrollbar-thumb{
         background-color: #346083;
         border-radius: 5px;
     }

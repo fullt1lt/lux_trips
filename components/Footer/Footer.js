@@ -9,10 +9,10 @@ export const Footer = () => {
                 <li class="Footer_Navigation-Items">
                     <ul class="Footer_Navigation-Items_List1">
                         <li class="">
-                            <a href="#">Luxury Packages</a>
+                            <a href="#LuxuryPackages" data-lang="LuxuryPackages">Luxury Packages</a>
                         </li>
                         <li>
-                            <a href="#">Book with us</a>
+                            <a href="#BookWithUs" data-lang="BookWithUs">Book with us</a>
                         </li>
                     </ul>
                     <ul class="Footer_Navigation-Items_List3">
@@ -20,7 +20,7 @@ export const Footer = () => {
                             <ul class="Footer_List_Button_List">
                                 <li class="Footer_List_Button_List_Bg">
                                     <img src="./assets/icons/Layer 3.png" alt="">
-                                    <button><a href="#">Call me <span>back</span></a></button>
+                                    <button><a href="#CallMe" data-lang="Contact">Call me</a></button>
                                     <img src="./assets/icons/Layer 4.png" alt="">
                                 </li>
                             </ul>
@@ -28,10 +28,10 @@ export const Footer = () => {
                     </ul>
                     <ul class="Footer_Navigation-Items_List2">
                         <li>
-                            <a href="#">Why Lux Trips</a>
+                            <a href="#WhyLuxTrips" data-lang="WhyLuxTrips">Why Lux Trips</a>
                         </li>
                         <li>
-                            <a href="#">Contact</a>
+                            <a href="#Contact" data-lang="Contact">Contact</a>
                         </li>
                     </ul>
                 </li>
