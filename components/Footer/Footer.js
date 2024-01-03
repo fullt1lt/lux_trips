@@ -20,7 +20,7 @@ export const Footer = () => {
                             <ul class="Footer_List_Button_List">
                                 <li class="Footer_List_Button_List_Bg">
                                     <img src="./assets/icons/Layer 3.png" alt="">
-                                    <button><a href="#CallMe" data-lang="Contact">Call me</a></button>
+                                    <button><a href="#CallMe" data-lang="CallMe">Call me</a></button>
                                     <img src="./assets/icons/Layer 4.png" alt="">
                                 </li>
                             </ul>

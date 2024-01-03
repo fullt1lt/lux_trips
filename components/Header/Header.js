@@ -23,7 +23,7 @@ export const Header = ({ HeaderData }, { LocationHeaderItem }, lang) => {
   };
 
   const GetNavigationButton = () => {
-    return `<button><a href="#CallMe" data-lang="CallMe">Call Me</a></button>`;
+    return `<button><a href="#Contact" data-lang="CallMe">Call Me</a></button>`;
   };
   const GetСhoiceOfLocation = ({ LocationHeaderItem }) => {
     let btnContent = "FIND";
