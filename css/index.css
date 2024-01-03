@@ -1767,6 +1767,7 @@ body::-webkit-scrollbar-track {
   font-size: 1em;
   line-height: 179.8%;
   text-wrap: wrap;
+  padding: 10px;
 }
 .Why_Lux_Trips_Main_Text .Why_Lux_Trips_Main_Text_List .Why_Lux_Trips_Main_Footer_Imag {
   display: -webkit-box;
@@ -1904,6 +1905,10 @@ body::-webkit-scrollbar-track {
   .Why_Lux_Trips_Main_Text_List .Why_Lux_Trips_Main_Footer_Text3 {
     grid-area: 3/2/4/3 !important;
     padding-top: 0 !important;
+    width: 80% !important;
+  }
+  .Why_Lux_Trips_Main_Text_List .Why_Lux_Trips_Main_Footer_Text3 p {
+    font-size: 25px !important;
   }
   .Why_Lux_Trips_Main_Text_List .Why_Lux_Trips_Main_Footer_Button {
     grid-area: 4/1/5/3 !important;
@@ -2040,6 +2045,7 @@ body::-webkit-scrollbar-track {
   font-family: var(--font-family-Manrope);
   font-size: 1em;
   line-height: 179.8%;
+  padding: 10px;
 }
 .Customise_Your_Trip_List .Customise_Your_Trip_Button {
   margin-top: 65px;

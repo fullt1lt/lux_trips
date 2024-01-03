@@ -180,6 +180,7 @@
                 font-size: 1em;
                 line-height: 179.8%;
                 text-wrap: wrap;
+                padding: 10px;
             }
         }
         .Why_Lux_Trips_Main_Footer_Imag {
@@ -309,6 +310,10 @@
         .Why_Lux_Trips_Main_Footer_Text3 {
             grid-area: 3 / 2 / 4 / 3 !important;
             padding-top: 0 !important;
+            width: 80% !important;
+            p{
+                font-size: 25px !important;
+            }
         }
         .Why_Lux_Trips_Main_Footer_Button {
             grid-area: 4 / 1 / 5 / 3 !important;
