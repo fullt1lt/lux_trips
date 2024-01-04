@@ -2637,17 +2637,13 @@ body::-webkit-scrollbar-track {
   transition: all 0.3s ease-in-out;
   width: 280px;
   height: 55px;
+  font-family: var(--font-family-forum);
+  color: var(--white-color);
   cursor: pointer;
 }
 .Main_Contact_List .Contact_List_Button .Contact_List_Button_List .Button_Call_me_back button:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
-}
-.Main_Contact_List .Contact_List_Button .Contact_List_Button_List .Button_Call_me_back button a {
-  text-decoration: none;
-  font-family: var(--font-family-forum);
-  color: var(--white-color);
-  margin: 10px 30px;
 }
 
 .Bg_Contact_List2 {

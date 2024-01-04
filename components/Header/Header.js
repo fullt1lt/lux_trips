@@ -77,6 +77,9 @@ export const Header = ({ HeaderData }, { LocationHeaderItem }, lang) => {
                                         <button class="button_lang active">EN</button>
                                     </li>
                                     <li>
+                                        <button class="button_lang">UA</button>
+                                    </li>
+                                    <li>
                                         <button class="button_lang">RU</button>
                                     </li>
                                 </ul>
@@ -102,6 +105,9 @@ export const Header = ({ HeaderData }, { LocationHeaderItem }, lang) => {
                     <ul class="Navigation-Languages_buttons">
                         <li>
                         <button class="button_lang active">EN</button>
+                        </li>
+                        <li>
+                            <button class="button_lang">UA</button>
                         </li>
                         <li>
                         <button class="button_lang">RU</button>

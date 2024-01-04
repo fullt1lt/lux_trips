@@ -1,3 +1,5 @@
+// import { SMTPClient } from "../../node_modules/emailjs";
+
 export const Functions = ({ MainLang }) => {
   let currentLang = localStorage.getItem("langaege") || "en";
   let currentTopRated_buttons = localStorage.getItem("toprated") || "World";
@@ -25,6 +27,9 @@ export const Functions = ({ MainLang }) => {
             break;
           case "ru":
             text = MainLang[key][obj].ru;
+            break;
+          case "ua":
+            text = MainLang[key][obj].ua;
             break;
           default:
             text = MainLang[key][obj].en;
@@ -132,4 +137,26 @@ export const Functions = ({ MainLang }) => {
   };
 
   GetTopRated();
+
+  // const client = new SMTPClient({
+  //   user: "",
+  //   password: "password",
+  //   host: "smtp.your-email.com",
+  //   ssl: true,
+  // });
+
+  // const SendEmails = async () => {
+  //   try {
+  //     const message = await client.sendAsync({
+  //       text: "i hope this works",
+  //       from: "you <username@your-email.com>",
+  //       to: "someone <someone@your-email.com>, another <another@your-email.com>",
+  //       cc: "else <else@your-email.com>",
+  //       subject: "testing emailjs",
+  //     });
+  //     console.log(message);
+  //   } catch (err) {
+  //     console.error(err);
+  //   }
+  // };
 };

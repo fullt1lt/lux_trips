@@ -125,16 +125,18 @@
                     transition: all 0.3s ease-in-out;
                     width: 280px;
                     height: 55px;
+                    font-family: var(--font-family-forum);
+                    color: var(--white-color);
                     cursor: pointer;
                     &:hover {
                         transform: scale(1.05);
                     }
-                    a{
-                        text-decoration: none;
-                        font-family: var(--font-family-forum);
-                        color: var(--white-color);
-                        margin: 10px 30px;
-                    }
+                    // a{
+                    //     text-decoration: none;
+                    //     font-family: var(--font-family-forum);
+                    //     color: var(--white-color);
+                    //     margin: 10px 30px;
+                    // }
                 }
             }
         }

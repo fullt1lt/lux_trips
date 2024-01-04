@@ -246,10 +246,10 @@ function Contact() {
                 <span data-lang="Contact">Contact</span>
            </li>
            <li class="Main_Contact_List_Inut">
-                <input type="text" name="Name" placeholder="Name" maxlength="20" required="">
+                <input type="text" name="Name" id="Name" placeholder="Name" maxlength="20" required="">
            </li>
            <li class="Main_Contact_List_Inut">
-                <input type="number" name="Phone" placeholder="Phone" maxlength="12" required="">
+                <input type="number" name="Phone" id="Phone" placeholder="Phone" maxlength="12" required="">
            </li>
            <li class="Contact_List_Button">
                 <ul class="Contact_List_Button_List">
@@ -258,7 +258,7 @@ function Contact() {
                         <img src="./assets/icons/Layer 4.png" alt="">
                     </li>
                     <li class="Button_Call_me_back">
-                        <button><a href="#" data-lang="CallMe">Call me back</a></button>
+                        <button id="CallMe" data-lang="CallMe">Call me back</button>
                     </li>
                 </ul>
            </li>
