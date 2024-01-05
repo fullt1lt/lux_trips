@@ -1,4 +1,5 @@
 // import { SMTPClient } from "../../node_modules/emailjs";
+import emailjs from "emailjs-com";
 
 export const Functions = ({ MainLang }) => {
   let currentLang = localStorage.getItem("langaege") || "en";
@@ -138,25 +139,27 @@ export const Functions = ({ MainLang }) => {
 
   GetTopRated();
 
-  // const client = new SMTPClient({
-  //   user: "",
-  //   password: "password",
-  //   host: "smtp.your-email.com",
-  //   ssl: true,
-  // });
+  function Sendemail() {
+    emailjs.init("N2L1FGG2GLLxBsT4E");
+    document
+      .getElementById("myForm")
+      .addEventListener("submit", function (event) {
+        event.preventDefault();
+        emailjs
+          .send("service_dq8nxbe", "template_zkdwf2k", {
+            number_id: document.querySelector("#Phone").value,
+            from_name: document.querySelector("#Name").value,
+          })
+          .then(
+            function (response) {
+              console.log("SUCCESS!", response.status, response.text);
+            },
+            function (error) {
+              console.log("FAILED...", error);
+            }
+          );
+      });
+  }
 
-  // const SendEmails = async () => {
-  //   try {
-  //     const message = await client.sendAsync({
-  //       text: "i hope this works",
-  //       from: "you <username@your-email.com>",
-  //       to: "someone <someone@your-email.com>, another <another@your-email.com>",
-  //       cc: "else <else@your-email.com>",
-  //       subject: "testing emailjs",
-  //     });
-  //     console.log(message);
-  //   } catch (err) {
-  //     console.error(err);
-  //   }
-  // };
+  Sendemail();
 };

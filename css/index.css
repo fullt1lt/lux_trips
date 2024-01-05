@@ -1016,6 +1016,7 @@ body::-webkit-scrollbar-track {
   height: 38px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  color: var(--white-color);
   cursor: pointer;
 }
 .Main-Luxury_Packages__List .Main-Luxury_Packages_info button:hover {
@@ -1023,10 +1024,6 @@ body::-webkit-scrollbar-track {
           transform: scale(1.05);
   -webkit-animation: shake 4s infinite;
           animation: shake 4s infinite;
-}
-.Main-Luxury_Packages__List .Main-Luxury_Packages_info button a {
-  text-decoration: none;
-  color: var(--white-color);
 }
 .Main-Luxury_Packages__List .Main-Luxury_Packages_margin {
   margin-top: 150px;
@@ -2486,7 +2483,10 @@ body::-webkit-scrollbar-track {
   background-color: #e2d3ce;
 }
 
-.Main_Contact_List {
+form {
+  width: 75%;
+}
+form .Main_Contact_List {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2495,7 +2495,6 @@ body::-webkit-scrollbar-track {
       -ms-flex-direction: column;
           flex-direction: column;
   position: relative;
-  width: 75%;
   top: -15px;
   height: 525px;
   border: 1px solid var(--white-color);
@@ -2515,17 +2514,17 @@ body::-webkit-scrollbar-track {
       -ms-flex-pack: center;
           justify-content: center;
 }
-.Main_Contact_List .Main_Contact_List_Title span {
+form .Main_Contact_List .Main_Contact_List_Title span {
   font-family: var(--font-family-forum);
   font-size: 3.75em;
   font-style: normal;
   font-weight: var(--main-font-weight);
   line-height: 58px;
 }
-.Main_Contact_List .Main_Contact_List_Inut {
+form .Main_Contact_List .Main_Contact_List_Inut {
   margin-top: 25px;
 }
-.Main_Contact_List .Main_Contact_List_Inut input {
+form .Main_Contact_List .Main_Contact_List_Inut input {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2552,28 +2551,28 @@ body::-webkit-scrollbar-track {
   font-weight: 400;
   line-height: 179.8%;
 }
-.Main_Contact_List .Main_Contact_List_Inut input[type=number]::-webkit-inner-spin-button {
+form .Main_Contact_List .Main_Contact_List_Inut input[type=number]::-webkit-inner-spin-button {
   -webkit-appearance: none;
 }
-.Main_Contact_List .Main_Contact_List_Inut input::-webkit-input-placeholder {
+form .Main_Contact_List .Main_Contact_List_Inut input::-webkit-input-placeholder {
   color: var(--black-color);
 }
-.Main_Contact_List .Main_Contact_List_Inut input::-moz-placeholder {
+form .Main_Contact_List .Main_Contact_List_Inut input::-moz-placeholder {
   color: var(--black-color);
 }
-.Main_Contact_List .Main_Contact_List_Inut input:-ms-input-placeholder {
+form .Main_Contact_List .Main_Contact_List_Inut input:-ms-input-placeholder {
   color: var(--black-color);
 }
-.Main_Contact_List .Main_Contact_List_Inut input::-ms-input-placeholder {
+form .Main_Contact_List .Main_Contact_List_Inut input::-ms-input-placeholder {
   color: var(--black-color);
 }
-.Main_Contact_List .Main_Contact_List_Inut input::placeholder {
+form .Main_Contact_List .Main_Contact_List_Inut input::placeholder {
   color: var(--black-color);
 }
-.Main_Contact_List .Contact_List_Button {
+form .Main_Contact_List .Contact_List_Button {
   margin-top: 65px;
 }
-.Main_Contact_List .Contact_List_Button .Contact_List_Button_List {
+form .Main_Contact_List .Contact_List_Button .Contact_List_Button_List {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2585,7 +2584,7 @@ body::-webkit-scrollbar-track {
       -ms-flex-align: center;
           align-items: center;
 }
-.Main_Contact_List .Contact_List_Button .Contact_List_Button_List .Contact_List_Button_List_Bg {
+form .Main_Contact_List .Contact_List_Button .Contact_List_Button_List .Contact_List_Button_List_Bg {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2604,26 +2603,26 @@ body::-webkit-scrollbar-track {
       -ms-flex-pack: center;
           justify-content: center;
 }
-.Main_Contact_List .Contact_List_Button .Contact_List_Button_List .Contact_List_Button_List_Bg img {
+form .Main_Contact_List .Contact_List_Button .Contact_List_Button_List .Contact_List_Button_List_Bg img {
   position: relative;
   width: 48px;
   height: 20px;
   padding: 0 33px;
 }
-.Main_Contact_List .Contact_List_Button .Contact_List_Button_List .Contact_List_Button_List_Bg img:nth-child(1) {
+form .Main_Contact_List .Contact_List_Button .Contact_List_Button_List .Contact_List_Button_List_Bg img:nth-child(1) {
   top: -30px;
   background-color: transparent;
 }
-.Main_Contact_List .Contact_List_Button .Contact_List_Button_List .Contact_List_Button_List_Bg img:nth-child(2) {
+form .Main_Contact_List .Contact_List_Button .Contact_List_Button_List .Contact_List_Button_List_Bg img:nth-child(2) {
   bottom: -33px;
   background-color: transparent;
 }
-.Main_Contact_List .Contact_List_Button .Contact_List_Button_List .Button_Call_me_back {
+form .Main_Contact_List .Contact_List_Button .Contact_List_Button_List .Button_Call_me_back {
   z-index: 3;
   top: -55px;
   position: relative;
 }
-.Main_Contact_List .Contact_List_Button .Contact_List_Button_List .Button_Call_me_back button {
+form .Main_Contact_List .Contact_List_Button .Contact_List_Button_List .Button_Call_me_back button {
   font-weight: var(--main-font-weight);
   text-transform: var(--main-text-transform);
   letter-spacing: 0.64px;
@@ -2641,7 +2640,7 @@ body::-webkit-scrollbar-track {
   color: var(--white-color);
   cursor: pointer;
 }
-.Main_Contact_List .Contact_List_Button .Contact_List_Button_List .Button_Call_me_back button:hover {
+form .Main_Contact_List .Contact_List_Button .Contact_List_Button_List .Button_Call_me_back button:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
 }

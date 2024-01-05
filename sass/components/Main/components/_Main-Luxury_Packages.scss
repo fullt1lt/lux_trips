@@ -55,14 +55,11 @@
             width: 140px;
             height: 38px;
             transition: all 0.3s ease-in-out;
+            color: var(--white-color);
             cursor: pointer;
             &:hover {
                 transform: scale(1.05);
                         animation: shake 4s infinite;
-            }
-            a{
-                text-decoration: none;
-                color: var(--white-color);
             }
         }
     }

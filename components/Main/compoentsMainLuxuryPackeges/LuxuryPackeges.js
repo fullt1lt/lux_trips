@@ -16,7 +16,9 @@ const CreateLuxuryPackegesList = ({ LuxuryPackeges }) => {
       item.content
     }</span>
                 </li>
-                <li class="Luxury_Packages_Places">
+                <li class="Luxury_Packages_Places Chngpages" data-chngpages="${
+                  item.datachngpages
+                }">
                     <img src="${item.imgVector}" alt="${
       item.altVector
     }" class="${item.classVector}">

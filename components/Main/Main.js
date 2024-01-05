@@ -241,15 +241,16 @@ function Contact() {
                 <img src="./assets/icons/Layer_5.png" alt="Layer_5">
             </li>
         </ul>
+        <form id="myForm">
         <ul class="Main_Contact_List">
            <li class="Main_Contact_List_Title">
                 <span data-lang="Contact">Contact</span>
            </li>
            <li class="Main_Contact_List_Inut">
-                <input type="text" name="Name" id="Name" placeholder="Name" maxlength="20" required="">
+                <input type="text" id="Name" placeholder="Name" maxlength="20" required="">
            </li>
            <li class="Main_Contact_List_Inut">
-                <input type="number" name="Phone" id="Phone" placeholder="Phone" maxlength="12" required="">
+                <input type="tel" id="Phone" placeholder="Phone" maxlength="12" required="">
            </li>
            <li class="Contact_List_Button">
                 <ul class="Contact_List_Button_List">
@@ -258,11 +259,12 @@ function Contact() {
                         <img src="./assets/icons/Layer 4.png" alt="">
                     </li>
                     <li class="Button_Call_me_back">
-                        <button id="CallMe" data-lang="CallMe">Call me back</button>
+                        <button id="CallMe" type="submit" data-lang="CallMe">Call me back</button>
                     </li>
                 </ul>
            </li>
         </ul>
+        </form>
         <ul class="Bg_Contact_List2">
             <li>
             </li>

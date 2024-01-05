@@ -16,7 +16,7 @@ const {
 } = WebSiteData;
 
 document.querySelector("#app").innerHTML = `
-    ${Header({ HeaderData }, { LocationHeaderItem })}
+      ${Header({ HeaderData }, { LocationHeaderItem })}
     ${Main(
       { Main_Title_List },
       { Top_Rated },
