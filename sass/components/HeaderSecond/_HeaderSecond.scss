@@ -1,0 +1,17 @@
+@import "./components/Navigation";
+@import "./components/Button";
+
+
+.HeaderSecond {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(180deg, #E2D3CE 0%, #C9C8D8 30.73%, #D4D8C6 59.37%, #E2D3CE 100%);
+    background-repeat : no-repeat;
+    background-size: cover; 
+    background-position: center center;
+    font-family: var(--font-family-forum);
+    overflow: hidden;
+}
+
+
