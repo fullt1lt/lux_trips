@@ -4,10 +4,10 @@
         "dataTop" : "World",
         "child" : {
             "0" : {
-                "pathImag" : "../../assets/images/Winter_park.png",
+                "pathImag" : "./assets/images/Winter_park.png",
                 "alt" : "Winter_park",
                 "GalleryItemList" : {
-                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "imgPlacePath" : "./assets/icons/Point.svg",
                     "CountryPlace" : "Austria",
                     "Place" : "Winter Park Ski Holiday",
                     "From" : "From",
@@ -22,10 +22,10 @@
                 }
             },
             "1" : {
-                "pathImag" : "../../assets/images/Mach_picchu.png",
+                "pathImag" : "./assets/images/Mach_picchu.png",
                 "alt" : "Mach_picchu",
                 "GalleryItemList" : {
-                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "imgPlacePath" : "./assets/icons/Point.svg",
                     "CountryPlace" : "Peru",
                     "Place" : "Machu Picchu",
                     "From" : "From",
@@ -40,10 +40,10 @@
                 }
             },
             "2" : {
-                "pathImag" : "../../assets/images/Hvar.png",
+                "pathImag" : "./assets/images/Hvar.png",
                 "alt" : "Hvar",
                 "GalleryItemList" : {
-                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "imgPlacePath" : "./assets/icons/Point.svg",
                     "CountryPlace" : "Croatia",
                     "Place" : "Hvar",
                     "From" : "From",
@@ -58,10 +58,10 @@
                 }
             },
             "3" : {
-                "pathImag" : "../../assets/images/Wadi_Musa.png",
+                "pathImag" : "./assets/images/Wadi_Musa.png",
                 "alt" : "Wadi_Musa",
                 "GalleryItemList" : {
-                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "imgPlacePath" : "./assets/icons/Point.svg",
                     "CountryPlace" : "Jordan",
                     "Place" : "Wadi Musa",
                     "From" : "From",
@@ -76,10 +76,10 @@
                 }
             },
             "4" : {
-                "pathImag" : "../../assets/images/Maldives.jpg",
+                "pathImag" : "./assets/images/Maldives.jpg",
                 "alt" : "Maldives",
                 "GalleryItemList" : {
-                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "imgPlacePath" : "./assets/icons/Point.svg",
                     "CountryPlace" : "Maldives",
                     "Place" : "Baros",
                     "From" : "From",
@@ -94,10 +94,10 @@
                 }
             },
             "5" : {
-                "pathImag" : "../../assets/images/Barcelona.jpg",
+                "pathImag" : "./assets/images/Barcelona.jpg",
                 "alt" : "Barcelona",
                 "GalleryItemList" : {
-                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "imgPlacePath" : "./assets/icons/Point.svg",
                     "CountryPlace" : "Spain",
                     "Place" : "Barcelona",
                     "From" : "From",
@@ -118,10 +118,10 @@
         "dataTop" : "Africa",
         "child" : {
             "0" : {
-                "pathImag" : "../../assets/images/Nairobi.jpg",
+                "pathImag" : "./assets/images/Nairobi.jpg",
                 "alt" : "Nairobi",
                 "GalleryItemList" : {
-                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "imgPlacePath" : "./assets/icons/Point.svg",
                     "CountryPlace" : "Kenya",
                     "Place" : "Nairobi",
                     "From" : "From",
@@ -136,10 +136,10 @@
                 }
             },
             "1" : {
-                "pathImag" : "../../assets/images/Zanzibar.jpg",
+                "pathImag" : "./assets/images/Zanzibar.jpg",
                 "alt" : "Zanzibar",
                 "GalleryItemList" : {
-                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "imgPlacePath" : "./assets/icons/Point.svg",
                     "CountryPlace" : "Tanzania",
                     "Place" : "Zanzibar",
                     "From" : "From",
@@ -154,10 +154,10 @@
                 }
             },
             "2" : {
-                "pathImag" : "../../assets/images/Ouarzazate.jpg",
+                "pathImag" : "./assets/images/Ouarzazate.jpg",
                 "alt" : "Ouarzazate",
                 "GalleryItemList" : {
-                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "imgPlacePath" : "./assets/icons/Point.svg",
                     "CountryPlace" : "Morocco",
                     "Place" : "Ouarzazate",
                     "From" : "From",
@@ -172,10 +172,10 @@
                 }
             },
             "3" : {
-                "pathImag" : "../../assets/images/Essaouira.jpg",
+                "pathImag" : "./assets/images/Essaouira.jpg",
                 "alt" : "Essaouira",
                 "GalleryItemList" : {
-                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "imgPlacePath" : "./assets/icons/Point.svg",
                     "CountryPlace" : "Morocco",
                     "Place" : "Essaouira",
                     "From" : "From",
@@ -190,10 +190,10 @@
                 }
             },
             "4" : {
-                "pathImag" : "../../assets/images/Cape_Town.jpg",
+                "pathImag" : "./assets/images/Cape_Town.jpg",
                 "alt" : "Cape_Town",
                 "GalleryItemList" : {
-                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "imgPlacePath" : "./assets/icons/Point.svg",
                     "CountryPlace" : "South Africa",
                     "Place" : "Cape Town",
                     "From" : "From",
@@ -208,10 +208,10 @@
                 }
             },
             "5" : {
-                "pathImag" : "../../assets/images/VictoriaFalls.jpg",
+                "pathImag" : "./assets/images/VictoriaFalls.jpg",
                 "alt" : "VictoriaFalls",
                 "GalleryItemList" : {
-                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "imgPlacePath" : "./assets/icons/Point.svg",
                     "CountryPlace" : "Zimbabwe",
                     "Place" : "Victoria Falls",
                     "From" : "From",
@@ -232,10 +232,10 @@
         "dataTop" : "Europe",
         "child" : {
             "0" : {
-                "pathImag" : "../../assets/images/London.jpg",
+                "pathImag" : "./assets/images/London.jpg",
                 "alt" : "London",
                 "GalleryItemList" : {
-                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "imgPlacePath" : "./assets/icons/Point.svg",
                     "CountryPlace" : "England",
                     "Place" : "London",
                     "From" : "From",
@@ -250,10 +250,10 @@
                 }
             },
             "1" : {
-                "pathImag" : "../../assets/images/Rome.jpg",
+                "pathImag" : "./assets/images/Rome.jpg",
                 "alt" : "Rome",
                 "GalleryItemList" : {
-                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "imgPlacePath" : "./assets/icons/Point.svg",
                     "CountryPlace" : "Italy",
                     "Place" : "Rome",
                     "From" : "From",
@@ -268,10 +268,10 @@
                 }
             },
             "2" : {
-                "pathImag" : "../../assets/images/Paris.jpg",
+                "pathImag" : "./assets/images/Paris.jpg",
                 "alt" : "Paris",
                 "GalleryItemList" : {
-                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "imgPlacePath" : "./assets/icons/Point.svg",
                     "CountryPlace" : "France",
                     "Place" : "Paris",
                     "From" : "From",
@@ -286,10 +286,10 @@
                 }
             },
             "3" : {
-                "pathImag" : "../../assets/images/Istanbul.jpg",
+                "pathImag" : "./assets/images/Istanbul.jpg",
                 "alt" : "Istanbul",
                 "GalleryItemList" : {
-                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "imgPlacePath" : "./assets/icons/Point.svg",
                     "CountryPlace" : "Türkiye",
                     "Place" : "Istanbul",
                     "From" : "From",
@@ -304,10 +304,10 @@
                 }
             },
             "4" : {
-                "pathImag" : "../../assets/images/Amsterdam.jpg",
+                "pathImag" : "./assets/images/Amsterdam.jpg",
                 "alt" : "Amsterdam",
                 "GalleryItemList" : {
-                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "imgPlacePath" : "./assets/icons/Point.svg",
                     "CountryPlace" : "Netherlands",
                     "Place" : "Amsterdam",
                     "From" : "From",
@@ -322,10 +322,10 @@
                 }
             },
             "5" : {
-                "pathImag" : "../../assets/images/Vienna.jpg",
+                "pathImag" : "./assets/images/Vienna.jpg",
                 "alt" : "Vienna",
                 "GalleryItemList" : {
-                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "imgPlacePath" : "./assets/icons/Point.svg",
                     "CountryPlace" : "Austria",
                     "Place" : "Vienna",
                     "From" : "From",
@@ -346,10 +346,10 @@
         "dataTop" : "Asia",
         "child" : {
             "0" : {
-                "pathImag" : "../../assets/images/Bali.jpg",
+                "pathImag" : "./assets/images/Bali.jpg",
                 "alt" : "Bali",
                 "GalleryItemList" : {
-                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "imgPlacePath" : "./assets/icons/Point.svg",
                     "CountryPlace" : "Indonesia",
                     "Place" : "Bali",
                     "From" : "From",
@@ -364,10 +364,10 @@
                 }
             },
             "1" : {
-                "pathImag" : "../../assets/images/Phuket.jpg",
+                "pathImag" : "./assets/images/Phuket.jpg",
                 "alt" : "Phuket",
                 "GalleryItemList" : {
-                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "imgPlacePath" : "./assets/icons/Point.svg",
                     "CountryPlace" : "Thailand",
                     "Place" : "Phuket",
                     "From" : "From",
@@ -382,10 +382,10 @@
                 }
             },
             "2" : {
-                "pathImag" : "../../assets/images/Jaipur.jpg",
+                "pathImag" : "./assets/images/Jaipur.jpg",
                 "alt" : "Jaipur",
                 "GalleryItemList" : {
-                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "imgPlacePath" : "./assets/icons/Point.svg",
                     "CountryPlace" : "India",
                     "Place" : "Jaipur",
                     "From" : "From",
@@ -400,10 +400,10 @@
                 }
             },
             "3" : {
-                "pathImag" : "../../assets/images/Bangkok.jpg",
+                "pathImag" : "./assets/images/Bangkok.jpg",
                 "alt" : "Bangkok",
                 "GalleryItemList" : {
-                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "imgPlacePath" : "./assets/icons/Point.svg",
                     "CountryPlace" : "Thailand",
                     "Place" : "Bangkok",
                     "From" : "From",
@@ -418,10 +418,10 @@
                 }
             },
             "4" : {
-                "pathImag" : "../../assets/images/Goa.jpg",
+                "pathImag" : "./assets/images/Goa.jpg",
                 "alt" : "Goa",
                 "GalleryItemList" : {
-                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "imgPlacePath" : "./assets/icons/Point.svg",
                     "CountryPlace" : "India",
                     "Place" : "Goa",
                     "From" : "From",
@@ -436,10 +436,10 @@
                 }
             },
             "5" : {
-                "pathImag" : "../../assets/images/Singapore.jpg",
+                "pathImag" : "./assets/images/Singapore.jpg",
                 "alt" : "Singapore",
                 "GalleryItemList" : {
-                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "imgPlacePath" : "./assets/icons/Point.svg",
                     "CountryPlace" : "Singapore",
                     "Place" : "Singapore",
                     "From" : "From",
@@ -460,10 +460,10 @@
         "dataTop" : "NothAmerica",
         "child" : {
             "0" : {
-                "pathImag" : "../../assets/images/Havana.jpg",
+                "pathImag" : "./assets/images/Havana.jpg",
                 "alt" : "Havana",
                 "GalleryItemList" : {
-                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "imgPlacePath" : "./assets/icons/Point.svg",
                     "CountryPlace" : "Cuba",
                     "Place" : "Havana",
                     "From" : "From",
@@ -478,10 +478,10 @@
                 }
             },
             "1" : {
-                "pathImag" : "../../assets/images/Panama.jpg",
+                "pathImag" : "./assets/images/Panama.jpg",
                 "alt" : "Phuket",
                 "GalleryItemList" : {
-                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "imgPlacePath" : "./assets/icons/Point.svg",
                     "CountryPlace" : "Panama",
                     "Place" : "Panama City",
                     "From" : "From",
@@ -496,10 +496,10 @@
                 }
             },
             "2" : {
-                "pathImag" : "../../assets/images/Cancun.jpg",
+                "pathImag" : "./assets/images/Cancun.jpg",
                 "alt" : "Cancun",
                 "GalleryItemList" : {
-                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "imgPlacePath" : "./assets/icons/Point.svg",
                     "CountryPlace" : "Mexico",
                     "Place" : "Cancun",
                     "From" : "From",
@@ -514,10 +514,10 @@
                 }
             },
             "3" : {
-                "pathImag" : "../../assets/images/Whistler.jpg",
+                "pathImag" : "./assets/images/Whistler.jpg",
                 "alt" : "Whistler",
                 "GalleryItemList" : {
-                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "imgPlacePath" : "./assets/icons/Point.svg",
                     "CountryPlace" : "Сanada",
                     "Place" : "Whistler",
                     "From" : "From",
@@ -532,10 +532,10 @@
                 }
             },
             "4" : {
-                "pathImag" : "../../assets/images/LosAngeles.jpg",
+                "pathImag" : "./assets/images/LosAngeles.jpg",
                 "alt" : "LosAngeles",
                 "GalleryItemList" : {
-                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "imgPlacePath" : "./assets/icons/Point.svg",
                     "CountryPlace" : "USA",
                     "Place" : "Los Angeles",
                     "From" : "From",
@@ -550,10 +550,10 @@
                 }
             },
             "5" : {
-                "pathImag" : "../../assets/images/Negril.jpg",
+                "pathImag" : "./assets/images/Negril.jpg",
                 "alt" : "Negril",
                 "GalleryItemList" : {
-                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "imgPlacePath" : "./assets/icons/Point.svg",
                     "CountryPlace" : "Jamaica",
                     "Place" : "Negril",
                     "From" : "From",
@@ -574,10 +574,10 @@
         "dataTop" : "SothAmerica",
         "child" : {
             "0" : {
-                "pathImag" : "../../assets/images/RiodeJaneiro.jpg",
+                "pathImag" : "./assets/images/RiodeJaneiro.jpg",
                 "alt" : "RiodeJaneiro",
                 "GalleryItemList" : {
-                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "imgPlacePath" : "./assets/icons/Point.svg",
                     "CountryPlace" : "Rio de Janeiro",
                     "Place" : "Rio de Janeiro",
                     "From" : "From",
@@ -592,10 +592,10 @@
                 }
             },
             "1" : {
-                "pathImag" : "../../assets/images/Natal.jpg",
+                "pathImag" : "./assets/images/Natal.jpg",
                 "alt" : "Natal",
                 "GalleryItemList" : {
-                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "imgPlacePath" : "./assets/icons/Point.svg",
                     "CountryPlace" : "Rio Grande do Norte",
                     "Place" : "Natal",
                     "From" : "From",
@@ -610,10 +610,10 @@
                 }
             },
             "2" : {
-                "pathImag" : "../../assets/images/FozdoIguacu.jpg",
+                "pathImag" : "./assets/images/FozdoIguacu.jpg",
                 "alt" : "FozdoIguacu",
                 "GalleryItemList" : {
-                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "imgPlacePath" : "./assets/icons/Point.svg",
                     "CountryPlace" : "Parana",
                     "Place" : "Foz do Iguacu",
                     "From" : "From",
@@ -628,10 +628,10 @@
                 }
             },
             "3" : {
-                "pathImag" : "../../assets/images/BuenosAires.jpg",
+                "pathImag" : "./assets/images/BuenosAires.jpg",
                 "alt" : "BuenosAires",
                 "GalleryItemList" : {
-                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "imgPlacePath" : "./assets/icons/Point.svg",
                     "CountryPlace" : "Argentina",
                     "Place" : "Buenos Aires",
                     "From" : "From",
@@ -646,10 +646,10 @@
                 }
             },
             "4" : {
-                "pathImag" : "../../assets/images/LosAngeles.jpg",
+                "pathImag" : "./assets/images/LosAngeles.jpg",
                 "alt" : "LosAngeles",
                 "GalleryItemList" : {
-                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "imgPlacePath" : "./assets/icons/Point.svg",
                     "CountryPlace" : "USA",
                     "Place" : "Los Angeles",
                     "From" : "From",
@@ -664,10 +664,10 @@
                 }
             },
             "5" : {
-                "pathImag" : "../../assets/images/Cartagena.jpg",
+                "pathImag" : "./assets/images/Cartagena.jpg",
                 "alt" : "Cartagena",
                 "GalleryItemList" : {
-                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "imgPlacePath" : "./assets/icons/Point.svg",
                     "CountryPlace" : "Colombia",
                     "Place" : "Cartagena",
                     "From" : "From",
@@ -688,10 +688,10 @@
         "dataTop" : "Antarctica",
         "child" : {
             "0" : {
-                "pathImag" : "../../assets/images/OceanAlbatrossesСruise.jpg",
+                "pathImag" : "./assets/images/OceanAlbatrossesСruise.jpg",
                 "alt" : "OceanAlbatrossesСruise",
                 "GalleryItemList" : {
-                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "imgPlacePath" : "./assets/icons/Point.svg",
                     "CountryPlace" : "Antarctica",
                     "Place" : "Ocean Albatrosses Сruise",
                     "From" : "From",
@@ -706,10 +706,10 @@
                 }
             },
             "1" : {
-                "pathImag" : "../../assets/images/Hondius.jpg",
+                "pathImag" : "./assets/images/Hondius.jpg",
                 "alt" : "Hondius",
                 "GalleryItemList" : {
-                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "imgPlacePath" : "./assets/icons/Point.svg",
                     "CountryPlace" : "Antarctica",
                     "Place" : "Hondius",
                     "From" : "From",
@@ -724,10 +724,10 @@
                 }
             },
             "2" : {
-                "pathImag" : "../../assets/images/Expedition.jpg",
+                "pathImag" : "./assets/images/Expedition.jpg",
                 "alt" : "Expedition",
                 "GalleryItemList" : {
-                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "imgPlacePath" : "./assets/icons/Point.svg",
                     "CountryPlace" : "Antarctica",
                     "Place" : "Expedition",
                     "From" : "From",
@@ -742,10 +742,10 @@
                 }
             },
             "3" : {
-                "pathImag" : "../../assets/images/PolarPioneer.jpg",
+                "pathImag" : "./assets/images/PolarPioneer.jpg",
                 "alt" : "PolarPioneer",
                 "GalleryItemList" : {
-                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "imgPlacePath" : "./assets/icons/Point.svg",
                     "CountryPlace" : "Antarctica",
                     "Place" : "Polar Pioneer",
                     "From" : "From",
@@ -760,10 +760,10 @@
                 }
             },
             "4" : {
-                "pathImag" : "../../assets/images/Ortelius.jpg",
+                "pathImag" : "./assets/images/Ortelius.jpg",
                 "alt" : "Ortelius",
                 "GalleryItemList" : {
-                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "imgPlacePath" : "./assets/icons/Point.svg",
                     "CountryPlace" : "Antarctica",
                     "Place" : "Ortelius",
                     "From" : "From",
@@ -778,10 +778,10 @@
                 }
             },
             "5" : {
-                "pathImag" : "../../assets/images/Plancius.jpg",
+                "pathImag" : "./assets/images/Plancius.jpg",
                 "alt" : "Plancius",
                 "GalleryItemList" : {
-                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "imgPlacePath" : "./assets/icons/Point.svg",
                     "CountryPlace" : "Antarctica",
                     "Place" : "Plancius",
                     "From" : "From",
@@ -802,10 +802,10 @@
         "dataTop" : "Australia",
         "child" : {
             "0" : {
-                "pathImag" : "../../assets/images/Sydney.jpg",
+                "pathImag" : "./assets/images/Sydney.jpg",
                 "alt" : "Sydney",
                 "GalleryItemList" : {
-                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "imgPlacePath" : "./assets/icons/Point.svg",
                     "CountryPlace" : "Australia",
                     "Place" : "Sydney",
                     "From" : "From",
@@ -820,10 +820,10 @@
                 }
             },
             "1" : {
-                "pathImag" : "../../assets/images/GreatBarrierReef.jpg",
+                "pathImag" : "./assets/images/GreatBarrierReef.jpg",
                 "alt" : "GreatBarrierReef",
                 "GalleryItemList" : {
-                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "imgPlacePath" : "./assets/icons/Point.svg",
                     "CountryPlace" : "Australia",
                     "Place" : "Great Barrier Reef",
                     "From" : "From",
@@ -838,10 +838,10 @@
                 }
             },
             "2" : {
-                "pathImag" : "../../assets/images/RedHeartofAustralia.jpg",
+                "pathImag" : "./assets/images/RedHeartofAustralia.jpg",
                 "alt" : "RedHeartofAustralia",
                 "GalleryItemList" : {
-                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "imgPlacePath" : "./assets/icons/Point.svg",
                     "CountryPlace" : "Australia",
                     "Place" : "Red Heart of Australia",
                     "From" : "From",
@@ -856,10 +856,10 @@
                 }
             },
             "3" : {
-                "pathImag" : "../../assets/images/Tasmaniaisland.jpg",
+                "pathImag" : "./assets/images/Tasmaniaisland.jpg",
                 "alt" : "Tasmaniaisland",
                 "GalleryItemList" : {
-                    "imgPlacePath" : "../../assets/icons/Point.svg",
+                    "imgPlacePath" : "./assets/icons/Point.svg",
                     "CountryPlace" : "Australia",
                     "Place" : "Tasmania island",
                     "From" : "From",

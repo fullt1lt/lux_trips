@@ -1,8 +1,8 @@
-import Logo from "../../assets/icons/logo.svg";
-import Layer_3_White_Up from "../../assets/icons/Layer_3_White_Up.svg";
-import Layer_3_White_Down from "../../assets/icons/Layer_3_White_Down.svg";
-import icon_search from "../../assets/icons/icon_search.svg";
-import Gradient from "../../assets/images/Gradient_1.png";
+import Logo from "./assets/icons/logo.svg";
+import Layer_3_White_Up from "./assets/icons/Layer_3_White_Up.svg";
+import Layer_3_White_Down from "./assets/icons/Layer_3_White_Down.svg";
+import icon_search from "./assets/icons/icon_search.svg";
+import Gradient from "./assets/images/Gradient_1.png";
 
 export const HeaderMain = ({ HeaderData }, { LocationHeaderItem }, lang) => {
   const GetNavigationDataDropdown = ({ HeaderData }) => {
@@ -87,7 +87,7 @@ export const HeaderMain = ({ HeaderData }, { LocationHeaderItem }, lang) => {
                                 </ul>
                                 <ul class="Navigation-Languages_buttons_Close">
                                     <li>
-                                        <button class="Close"><img src="../../assets/icons/x-close.svg" alt=""></button>
+                                        <button class="Close"><img src="./assets/icons/x-close.svg" alt=""></button>
                                     </li>
                                 </ul>
                             </li>

@@ -1,7 +1,7 @@
 [
     {
         "topClassName" : "Location_Header_Item",
-        "pathImag" : "../../assets/icons/icon_destination.svg",
+        "pathImag" : "./assets/icons/icon_destination.svg",
         "alt" : "icon_destination",
         "nameItem" : "Destination",
         "chldClassName" : "Destination",
@@ -9,7 +9,7 @@
     },
     {
         "topClassName" : "Location_Header_Item",
-        "pathImag" : "../../assets/icons/icon_travel.svg",
+        "pathImag" : "./assets/icons/icon_travel.svg",
         "alt" : "icon_travel",
         "nameItem" : "Travel type",
         "chldClassName" : "Travel",
@@ -17,7 +17,7 @@
     },
     {
         "topClassName" : "Location_Header_Item",
-        "pathImag" : "../../assets/icons/icon_calendar.svg",
+        "pathImag" : "./assets/icons/icon_calendar.svg",
         "alt" : "icon_calendar",
         "nameItem" : "When",
         "chldClassName" : "Сalendar",
@@ -25,7 +25,7 @@
     },
     {
         "topClassName" : "Location_Header_Item",
-        "pathImag" : "../../assets/icons/icon_travellers.svg",
+        "pathImag" : "./assets/icons/icon_travellers.svg",
         "alt" : "icon_travellers",
         "nameItem" : "Travellers",
         "chldClassName" : "Travellers",

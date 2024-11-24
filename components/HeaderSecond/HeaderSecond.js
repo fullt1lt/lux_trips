@@ -1,6 +1,6 @@
-import Logo from "../../assets/icons/logo.svg";
-import Layer_3_White_Up from "../../assets/icons/Layer_3_White_Up.svg";
-import Layer_3_White_Down from "../../assets/icons/Layer_3_White_Down.svg";
+import Logo from "./assets/icons/logo.svg";
+import Layer_3_White_Up from "./assets/icons/Layer_3_White_Up.svg";
+import Layer_3_White_Down from "./assets/icons/Layer_3_White_Down.svg";
 
 export const HeaderSecond = ({ HeaderData }) => {
   const GetNavigationDataDropdown = ({ HeaderData }) => {
